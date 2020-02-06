@@ -1,10 +1,10 @@
 {
-    "name": "CE Dashboard",
-    "summary": "Customized dashboard look by CE 2017",
+    "name": "CE 2017 Theme",
+    "summary": "Custom Theme by CE 2017",
     "version": "11.0.0.1",
     "category": "Design",
     "website": "http://tekkom.pens.ac.id",
-    "author": "M. Rafli Firmansyah (2210171003)",
+    "author": "Computer Engineering 2017",
     "license": "LGPL-3",
     "installable": True,
     "data": [

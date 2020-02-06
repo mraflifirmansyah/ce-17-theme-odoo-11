@@ -1,0 +1,77 @@
+ /* Drawer */
+ #odooAppDrawer {transition: left 1s cubic-bezier(.08,.82,.17,1); border-radius: 0% 5% 5% 0%; width: 250px !important; background-color: #078ec8;  border: none; z-index: 1; left: 0; box-shadow: none; position: fixed;}
+ #appDrawerAppMenu {margin: 1%;}
+ #appDrawerApps {padding-left: 0px; margin-right: -20px;}
+ #appDrawerApps > div {width: 100%; height: 50px;}
+ #appDrawerApps > div:hover {padding-left: 10px;}
+ #appDrawerApps > div:nth-child(18), #appDrawerApps > div:nth-child(20) {display: none !important;}
+ #appDrawerApps > div:nth-child(9), #appDrawerApps > div:nth-child(10) {transform: translateY(-198px);}
+ #appDrawerApps > div:nth-child(2), #appDrawerApps > div:nth-child(4) {transform: translateY(198px);}
+ #appDrawerApps > div:nth-child(1) {margin-top: 0px !important;}
+ #appDrawerApps > div > a {display: -webkit-box; width: 5vw; padding: 5%; text-align: left; padding-left: 25%; color: white !important; outline: none;}
+ #appDrawerApps > div.active {background-color: white; border-radius: 50% 0% 0% 50%;}
+ #appDrawerApps > div.active > a {color: #078ec8 !important;}
+ #appDrawerAppPanelHead {display: contents;}
+ #appDrawerAppPanelHead > div > a.oe_logo > img {transform: scale(0.6); margin-top: 10px; margin-bottom: 10px;}
+ #appDrawerAppPanelHead > div {display: grid; text-align: center; width: 100%; align-content: center;}
+ .app-drawer-icon-open {color: #078ec8; /*display: none;*/}
+ .app-drawer-icon-open:hover {background-color: whitesmoke;}
+ .app-drawer-panel-title {display: none;}
+ .app-drawer-icon-app {height: 30px !important; width: 30px !important;}
+ .app-drawer-title {width: 100px; text-align: justify !important; height: 30px; margin-top: 3px; margin-left: 10px;}
+
+ /* Login Page */
+ #login-form {opacity: 1 !important;}
+
+ /* Navbar Dashboard */
+ nav.main-nav {background-color: white !important; margin-left: 250px;}
+ li.app-name {font-weight: bold; display:none !important;}
+ li.app-name > span.oe_menu_text {text-transform: uppercase;}
+ .o_user_menu > a {color: white !important;}
+ .navbar-nav > li > a {color: #078ec8 !important; background-color: white;}
+ .navbar-nav > li > a.dropdown-toggle:hover, .navbar-nav > li > a.oe_menu_leaf:hover, .navbar-systray-item > li > a:hover, .navbar-systray-item > li.open > a.dropdown-toggle, .o_mail_navbar_item > a.dropdown-toggle:hover, .navbar-nav > li.open > a, ul.oe_secondary_menu > li.active > a:hover {background-color: whitesmoke !important; color: #078ec8 !important;}
+ .navbar-nav > .open > a, .navbar-nav > .open > a:focus {color: #345577;}
+ .navbar-nav > li.active > a.oe_menu_leaf, .navbar-nav > li.active > a.dropdown-toggle:focus {background-color: transparent !important;}
+ .navbar-default {border: none !important;}
+
+ /* Main Dashboard */
+ .oe_action, .o_web_settings_dashboard_apps {border-radius: 3%;}
+ h2.oe_header {padding: 3% 5% 2% 3% !important;}
+ .oe_dashboard_column > div.oe_action {border-color: black !important;}
+ .oe_dashboard_links {display: none;}
+ ul.oe_secondary_menu > li > a {color: #078ec8 !important;}
+ table.oe_dashboard_layout_1-1-1 {width: 0px !important;}
+ 
+ /* Other Apps */
+ .o_control_panel, .breadcrumb {background-color: white !important;}
+ div.settings_tab {background-color: white !important;}
+ div.settings_tab > div.tab > span.app_name {color: #00438b;}
+ div.settings_tab > div.selected {background-color: #00438b !important; box-shadow: none!important;}
+ div.settings_tab > div.selected > span.app_name {color: white !important;}
+ div.settings {background-color: whitesmoke !important;}
+ div.settings > div.app_settings_block > h2, div.settings > div.app_settings_block > * > h2  {background-color: whitesmoke !important;}
+ div.settings > div.app_settings_block > div.o_settings_container, div.settings > div.app_settings_block > * > div.o_settings_container {margin-left: 5px;}
+ 
+ /* Graph */
+ g.nv-multiBarWithLegend {transform: translate(115px, 50px) scale(0.95);}
+ g.nvd3-svg > g.nv-axis > g > g.tick > line[x2="0"] {display: none;}
+ 
+ /* Favourite Item at Dashboard */
+ [data-id=action_0_0] {width: 450px; display: block;}
+ [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g >g.nv-legendWrap > g.nv-legend > g > g.nv-series > text.nv-legend-text {font-size:  12px !important;}
+ [data-id=action_0_0] > div.oe_content > div.o_graph {height: 910px !important;}
+ [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-wrap > g > g.nv-legendWrap > g.nv-legend > g > g.nv-series > text.nv-legend-text {font-size: 10px !important;}
+ [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-wrap > g > g.nv-legendWrap > g.nv-legend > g {display: contents;}
+ [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-wrap > g > g.nv-pieWrap > g.nvd3 {transform: translate(-40px,-400px) scale(1.5);}
+ [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-wrap > g > g.nv-legendWrap {transform: translateX(250px);}
+ [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-wrap > g > g.nv-pieWrap > g.nv-pie > g > g.nv-pieLabels > g.nv-label > text {font-size: 8px;} 
+ [data-id=action_1_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-multiBarWithLegend > g > g.nv-barsWrap > g.nv-multibar > g > g.nv-groups > g.nv-series-0 > rect.nv-bar, [data-id=action_1_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-multiBarWithLegend > g > g.nv-legendWrap > g.nv-legend > g > g.nv-series > circle {fill: limegreen !important; stroke: limegreen !important;}
+ [data-id=action_1_0] {width: 700px; display: block;}
+ [data-id=action_1_0] > div.oe_content > div.o_graph {height: 420px !important;}
+ [data-id=action_1_1] {width: 800px; display: block;}
+ [data-id=action_1_1] > div.oe_content > div.o_graph {height: 400px !important;}
+ [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-1 > rect, [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-multiBarWithLegend > g > g.nv-legendWrap > g.nv-legend > g > g.nv-series > circle[style="stroke-width: 2px; fill: rgb(174, 199, 232); fill-opacity: 1; stroke: rgb(174, 199, 232);"], [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-0[style="stroke-opacity: 1; fill-opacity: 0.75; fill: rgb(174, 199, 232); stroke: rgb(174, 199, 232);"] > rect {fill: orange !important; stroke: orange !important;}
+
+ /* Universal */
+ div.o_main {margin-left: 250px;}
+ header[role="banner"] {background-color: white;}

@@ -1,1 +1,7 @@
 div.body_login > div#background-wrapper {background-image: linear-gradient(to right, blue,teal) !important;}
+div.body_login>.o_database_list {width: 60%;padding-left: 30%;padding-top: 5%;padding-bottom: 5%;}
+div.body_login>.o_database_list>.text-center>.company_logo{padding-bottom: 10%;}
+#login{background-color:#e3e3e3 !important;width: 100%;height: 45px;border-radius: 10px;}
+#password{background-color:#e3e3e3 !important;width: 100%;height: 45px;border-radius: 10px;}
+div.body_login>.o_database_list>.oe_login_form>.oe_login_buttons>.btn-primary{width: 100%;border-radius: 25px;height: 45px; background-image: linear-gradient(to right,
+blue, teal)}

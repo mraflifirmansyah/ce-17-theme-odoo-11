@@ -4,7 +4,7 @@
         <template id="webclient_bootstrap" name="CE Dashboard Assets" inherit_id="web.webclient_bootstrap">
             <xpath expr="." position="inside">
                 <link rel="stylesheet" href="https://rawcdn.githack.com/mraflifirmansyah/theme-design-odoo-11/9e551bb81eec7e57d427232b80d08972c6876d70/static/src/css/dashboard.css"/>
-                <script src="https://rawcdn.githack.com/mraflifirmansyah/ce-17-theme-odoo-11/00331a14a259d2a36e646d637225efd1b4b6cce9/static/src/js/dashboard.js"/>
+                <script src="https://raw.githack.com/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/js/dashboard.js"/>
             </xpath>
         </template>
 

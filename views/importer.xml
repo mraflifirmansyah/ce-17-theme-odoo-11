@@ -2,16 +2,14 @@
 
 <odoo>
         <template id="webclient_bootstrap" name="CE Dashboard Assets" inherit_id="web.webclient_bootstrap">
-                  
             <xpath expr="." position="inside">
-                <link rel="stylesheet" href="https://bitbucket.org/mraflifirmansyah/theme-design-odoo-11-by-ce-17/raw/577bffa0ebaced95fc8e8d012666cb06f8f12cc3/static/src/css/dashboard.css" type="text/css"/>
+                <link rel="stylesheet" href="https://rawcdn.githack.com/mraflifirmansyah/theme-design-odoo-11/9e551bb81eec7e57d427232b80d08972c6876d70/static/src/css/dashboard.css"/>
             </xpath>
-
         </template>
 
         <template id="login_layout" name="CE Login Assets" inherit_id="web.login_layout">
             <xpath expr="." position="inside">
-                <link rel="stylesheet" href="https://bitbucket.org/mraflifirmansyah/theme-design-odoo-11-by-ce-17/raw/577bffa0ebaced95fc8e8d012666cb06f8f12cc3/static/src/css/login.css" type="text/css"/>
+                <link rel="stylesheet" href="https://rawcdn.githack.com/mraflifirmansyah/theme-design-odoo-11/9e551bb81eec7e57d427232b80d08972c6876d70/static/src/css/login.css"/>
             </xpath>
         </template>
 </odoo>

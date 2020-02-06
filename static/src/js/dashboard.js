@@ -20,11 +20,11 @@ function toggleDrawerView(){
 
     if(drawerState == "close"){
         drawerState = "open";
-        drawerElement.style = "width: 250px !important;"
+        drawerElement.style = "width: 250px !important; transition: width 2s;"
     }
     else if(drawerState == "open"){
         drawerState = "close";
-        drawerElement.style = "width: 200px !important;"
+        drawerElement.style = "width: 100px !important; transition: width 2s;"
     }
 
     return;

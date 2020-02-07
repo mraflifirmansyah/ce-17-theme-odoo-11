@@ -1,5 +1,3 @@
-var drawerState = "long";
-
 function modifyDrawerToggler(){
     var aToggler = document.getElementsByClassName("app-drawer-toggle")[0];
     var btnToggler = document.createElement("button");
@@ -21,6 +19,9 @@ function removeOverlay(){
 
     return;
 }
+
+// Global Variable for toggleDrawerView()
+var drawerState = "long";
 
 function toggleDrawerView(){
     var drawerElement = document.getElementsByTagName("body")[0];

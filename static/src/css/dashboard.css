@@ -1,14 +1,14 @@
  /* Drawer */
  #odooAppDrawer {border-radius: 0%; background-color: #078ec8;  border: none; z-index: 1; left: 0; box-shadow: none; position: fixed;}
  #appDrawerAppMenu {margin-left: 5px;}
- #appDrawerApps > div {width: 100%; height: 50px;}
- #appDrawerApps > div:hover {padding-left: 10px;}
+ #appDrawerApps > div {width: 100%; height: 100%; padding: 0px;}
  #appDrawerApps > div:nth-child(18), #appDrawerApps > div:nth-child(20) {display: none !important;}
  #appDrawerApps > div:nth-child(9), #appDrawerApps > div:nth-child(10) {transform: translateY(-198px);}
  #appDrawerApps > div:nth-child(2), #appDrawerApps > div:nth-child(4) {transform: translateY(198px);}
- #appDrawerApps > div > a {display: -webkit-box; padding: 10px; text-align: left; padding-left: 25%; color: white !important; outline: none;}
- #appDrawerApps > div.active {background-color: white; border-radius: 50% 0% 0% 50%;}
+ #appDrawerApps > div > a {display: -webkit-box; text-align: justify; color: white !important; outline: none;}
+ #appDrawerApps > div.active {background-color: white; border-radius: 25% 0% 0% 25%;}
  #appDrawerApps > div.active > a {color: #078ec8 !important;}
+ #appDrawerApps .app-drawer-icon-app:hover, #appDrawerApps .app-drawer-title:hover {transform: scale(1.1);}
  #appDrawerAppPanelHead {display: contents;}
  #appDrawerAppPanelHead > div > a.oe_logo > img {transform: scale(0.6); margin-top: 10px; margin-bottom: 10px;}
  #appDrawerAppPanelHead > div {display: grid; text-align: center; width: 100%; align-content: center;}
@@ -23,18 +23,15 @@
  .drawer-long nav#odooAppDrawer {width: 250px !important; transition: width 1s;}
  .drawer-long nav.main-nav {margin-left: 250px; transition: margin 1s;}
  .drawer-long div.o_main {margin-left: 250px; transition: margin 1s;}
- .drawer-long #appDrawerApps > div {width: 250px; height: 50px; transition: width 1s, height 1s;}
+ .drawer-long #appDrawerApps > div > a {padding: 10px 10px 10px 25%; transition: padding 1s;}
 
  /* Drawer State Short */
  .drawer-short nav#odooAppDrawer {width: 70px !important; transition: width 1s;}
  .drawer-short nav.main-nav, .drawer-short div.o_main {margin-left: 70px; transition: margin 1s;}
  .drawer-short img.app-drawer-icon-app {height: 35px !important; width: 35px !important; display: block; margin: auto; transition: width 1s;}
  .drawer-short p.app-drawer-title {display: none;}
- .drawer-short #appDrawerApps > div {width: 70px; height: 50px; transition: width 1s;}
  .drawer-short #appDrawerApps > div > a {padding: 8px 8px 8px 25%; transition: padding 1s;}
-
- /* Login Page */
- #login-form {opacity: 1 !important;}
+ .drawer-short img.app-drawer-icon-app:hover {transform: scale(1.1);}
 
  /* Navbar Dashboard */
  nav.main-nav {background-color: white !important;}

@@ -15,6 +15,13 @@ function modifyDrawerToggler(){
     return;
 }
 
+function removeOverlay(){
+    var drawerOverlay = this.document.getElementsByClassName("drawer-overlay")[0];
+    drawerOverlay.parentNode.removeChild(drawerOverlay);
+
+    return;
+}
+
 function toggleDrawerView(){
     var drawerElement = document.getElementsByTagName("body")[0];
 
@@ -34,9 +41,8 @@ function toggleDrawerView(){
 
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-long");
-    var drawerOverlay = this.document.getElementsByClassName("drawer-overlay")[0];
-    drawerOverlay.parentNode.removeChild(drawerOverlay);
     this.modifyDrawerToggler();
+    this.removeOverlay();
     this.document.getElementById("drawerToggleBtn").onclick = function(){toggleDrawerView()};
 
     return;

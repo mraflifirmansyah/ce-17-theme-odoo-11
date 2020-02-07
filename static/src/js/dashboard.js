@@ -34,7 +34,7 @@ function toggleDrawerView(state){
 }
 
 window.onload = function(){
-    document.getElementsByTagName("body")[0].classList.add("drawer-long");
+    document.getElementsByTagName("body")[0].classList.add("drawer-short");
     this.modifyDrawerToggler();
     this.document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter")};
     this.document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out")};

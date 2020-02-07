@@ -32,6 +32,7 @@ function toggleDrawerView(){
 
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-long");
+    this.document.getElementsByClassName("drawer-overlay")[0].remove();
     this.modifyDrawerToggler();
     this.document.getElementById("drawerToggleBtn").onclick = function(){toggleDrawerView()};
 

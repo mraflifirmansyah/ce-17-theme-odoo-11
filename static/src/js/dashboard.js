@@ -1,4 +1,4 @@
-var drawerState = "close";
+var drawerState = "long";
 
 function modifyDrawerToggler(){
     var aToggler = document.getElementsByClassName("app-drawer-toggle")[0];
@@ -18,13 +18,15 @@ function modifyDrawerToggler(){
 function toggleDrawerView(){
     var drawerElement = document.getElementsByTagName("body")[0];
 
-    if(drawerState == "close"){
-        drawerState = "open";
-        drawerElement.classList.replace("drawer-long","drawer-short");
+    if(drawerState == "long"){
+        drawerState = "short";
+        drawerElement.classList.remove("drawer-long");
+        drawerElement.classList.add("drawer-short");
     }
-    else if(drawerState == "open"){
-        drawerState = "close";
-        drawerElement.classList.replace("drawer-short","drawer-long");
+    else if(drawerState == "short"){
+        drawerState = "long";
+        drawerElement.classList.remove("drawer-short");
+        drawerElement.classList.add("drawer-long");
     }
 
     return;
@@ -32,7 +34,8 @@ function toggleDrawerView(){
 
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-long");
-    this.document.getElementsByClassName("drawer-overlay")[0].remove();
+    var drawerOverlay = this.document.getElementsByClassName("drawer-overlay")[0];
+    drawerOverlay.parentNode.removeChild(drawerOverlay);
     this.modifyDrawerToggler();
     this.document.getElementById("drawerToggleBtn").onclick = function(){toggleDrawerView()};
 

@@ -1,6 +1,6 @@
  /* Drawer */
  #odooAppDrawer {border-radius: 0%; background-color: #078ec8;  border: none; z-index: 1; left: 0; box-shadow: none; position: fixed;}
- #appDrawerAppMenu {margin: 1%;}
+ #appDrawerAppMenu {margin-left: 5px;}
  #appDrawerApps > div {width: 100%; height: 50px;}
  #appDrawerApps > div:hover {padding-left: 10px;}
  #appDrawerApps > div:nth-child(18), #appDrawerApps > div:nth-child(20) {display: none !important;}
@@ -17,22 +17,20 @@
  .app-drawer-panel-title {display: none;}
  .app-drawer-icon-app {height: 30px !important; width: 30px !important;}
  .app-drawer-title {width: 100px; text-align: justify !important; height: 30px; margin-top: 3px; margin-left: 10px;}
+ .oe_menu_toggler {width: auto; height: 100%;}
 
  /* Drawer State Long */
- .drawer-long nav#odooAppDrawer {width: 250px !important;}
- .drawer-long nav.main-nav {margin-left: 250px;}
- .drawer-long div.o_main {margin-left: 250px;}
- .drawer-long #appDrawerApps > div {width: 250px; height: 50px;}
+ .drawer-long nav#odooAppDrawer {width: 250px !important; transition: all 1s;}
+ .drawer-long nav.main-nav {margin-left: 250px; transition: all 1s;}
+ .drawer-long div.o_main {margin-left: 250px; transition: all 1s;}
+ .drawer-long #appDrawerApps > div {width: 250px; height: 50px; transition: all 1s;}
 
  /* Drawer State Short */
- .drawer-short nav#odooAppDrawer {width: 70px !important;}
- .drawer-short nav.main-nav {margin-left: 70px;}
- .drawer-short div.o_main {margin-left: 70px;}
- .drawer-short img.app-drawer-icon-app {height: 35px !important; width: 35px !important; display: block; margin: auto;}
+ .drawer-short nav#odooAppDrawer {width: 70px !important; transition: all 1s;}
+ .drawer-short nav.main-nav, .drawer-short div.o_main {margin-left: 70px; transition: all 1s;}
+ .drawer-short img.app-drawer-icon-app {height: 35px !important; width: 35px !important; display: block; margin: auto; transition: all 1s;}
  .drawer-short p.app-drawer-title {display: none;}
- .drawer-short a.oe_menu_toggler {width: auto; height: 100%;}
- .drawer-short #appDrawerApps > div {width: 70px; height: 50px;}
- .drawer-short div#appDrawerAppMenu {margin-left: 5px;}
+ .drawer-short #appDrawerApps > div {width: 70px; height: 50px; transition: all 1s;}
 
  /* Login Page */
  #login-form {opacity: 1 !important;}

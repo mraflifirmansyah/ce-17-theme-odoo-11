@@ -20,18 +20,18 @@
  .oe_menu_toggler {width: auto; height: 100%;}
 
  /* Drawer State Long */
- .drawer-long nav#odooAppDrawer {width: 250px !important; transition: all 1s;}
- .drawer-long nav.main-nav {margin-left: 250px; transition: all 1s;}
- .drawer-long div.o_main {margin-left: 250px; transition: all 1s;}
- .drawer-long #appDrawerApps > div {width: 250px; height: 50px; transition: all 1s;}
+ .drawer-long nav#odooAppDrawer {width: 250px !important; transition: width 1s;}
+ .drawer-long nav.main-nav {margin-left: 250px; transition: margin 1s;}
+ .drawer-long div.o_main {margin-left: 250px; transition: margin 1s;}
+ .drawer-long #appDrawerApps > div {width: 250px; height: 50px; transition: width 1s, height 1s;}
 
  /* Drawer State Short */
- .drawer-short nav#odooAppDrawer {width: 70px !important; transition: all 1s;}
- .drawer-short nav.main-nav, .drawer-short div.o_main {margin-left: 70px; transition: all 1s;}
- .drawer-short img.app-drawer-icon-app {height: 35px !important; width: 35px !important; display: block; margin: auto; transition: all 1s;}
+ .drawer-short nav#odooAppDrawer {width: 70px !important; transition: width 1s;}
+ .drawer-short nav.main-nav, .drawer-short div.o_main {margin-left: 70px; transition: margin 1s;}
+ .drawer-short img.app-drawer-icon-app {height: 35px !important; width: 35px !important; display: block; margin: auto; transition: width 1s;}
  .drawer-short p.app-drawer-title {display: none;}
- .drawer-short #appDrawerApps > div {width: 70px; height: 50px; transition: all 1s;}
- .drawer-short #appDrawerApps > div > a {padding: 8px 8px 8px }
+ .drawer-short #appDrawerApps > div {width: 70px; height: 50px; transition: width 1s;}
+ .drawer-short #appDrawerApps > div > a {padding: 8px 8px 8px 25%; transition: padding 1s;}
 
  /* Login Page */
  #login-form {opacity: 1 !important;}

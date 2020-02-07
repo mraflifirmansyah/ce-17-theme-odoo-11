@@ -1,30 +1,44 @@
  /* Drawer */
- #odooAppDrawer {transition: left 1s cubic-bezier(.08,.82,.17,1); border-radius: 0% 5% 5% 0%; width: 250px !important; background-color: #078ec8;  border: none; z-index: 1; left: 0; box-shadow: none; position: fixed;}
+ #odooAppDrawer {border-radius: 0%; background-color: #078ec8;  border: none; z-index: 1; left: 0; box-shadow: none; position: fixed;}
  #appDrawerAppMenu {margin: 1%;}
- #appDrawerApps {padding-left: 0px; margin-right: -20px;}
  #appDrawerApps > div {width: 100%; height: 50px;}
  #appDrawerApps > div:hover {padding-left: 10px;}
  #appDrawerApps > div:nth-child(18), #appDrawerApps > div:nth-child(20) {display: none !important;}
  #appDrawerApps > div:nth-child(9), #appDrawerApps > div:nth-child(10) {transform: translateY(-198px);}
  #appDrawerApps > div:nth-child(2), #appDrawerApps > div:nth-child(4) {transform: translateY(198px);}
- #appDrawerApps > div:nth-child(1) {margin-top: 0px !important;}
  #appDrawerApps > div > a {display: -webkit-box; width: 5vw; padding: 5%; text-align: left; padding-left: 25%; color: white !important; outline: none;}
  #appDrawerApps > div.active {background-color: white; border-radius: 50% 0% 0% 50%;}
  #appDrawerApps > div.active > a {color: #078ec8 !important;}
  #appDrawerAppPanelHead {display: contents;}
  #appDrawerAppPanelHead > div > a.oe_logo > img {transform: scale(0.6); margin-top: 10px; margin-bottom: 10px;}
  #appDrawerAppPanelHead > div {display: grid; text-align: center; width: 100%; align-content: center;}
- .app-drawer-icon-open {color: #078ec8; /*display: none;*/}
+ .app-drawer-icon-open {color: #078ec8;}
  .app-drawer-icon-open:hover {background-color: whitesmoke;}
  .app-drawer-panel-title {display: none;}
  .app-drawer-icon-app {height: 30px !important; width: 30px !important;}
  .app-drawer-title {width: 100px; text-align: justify !important; height: 30px; margin-top: 3px; margin-left: 10px;}
 
+ /* Drawer State Long */
+ .drawer-long nav#odooAppDrawer {width: 250px !important;}
+ .drawer-long nav.main-nav {margin-left: 250px;}
+ .drawer-long div.o_main {margin-left: 250px;}
+ .drawer-long #appDrawerApps > div {width: 250px; height: 50px;}
+
+ /* Drawer State Short */
+ .drawer-short nav#odooAppDrawer {width: 70px !important;}
+ .drawer-short nav.main-nav {margin-left: 70px;}
+ .drawer-short div.o_main {margin-left: 70px;}
+ .drawer-short img.app-drawer-icon-app {height: 35px !important; width: 35px !important; display: block; margin: auto;}
+ .drawer-short p.app-drawer-title {display: none;}
+ .drawer-short a.oe_menu_toggler {width: auto; height: 100%;}
+ .drawer-short #appDrawerApps > div {width: 70px; height: 50px;}
+ .drawer-short div#appDrawerAppMenu {margin-left: 5px;}
+
  /* Login Page */
  #login-form {opacity: 1 !important;}
 
  /* Navbar Dashboard */
- nav.main-nav {background-color: white !important; margin-left: 250px;}
+ nav.main-nav {background-color: white !important;}
  li.app-name {font-weight: bold; display:none !important;}
  li.app-name > span.oe_menu_text {text-transform: uppercase;}
  .o_user_menu > a {color: white !important;}
@@ -73,5 +87,4 @@
  [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-1 > rect, [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-multiBarWithLegend > g > g.nv-legendWrap > g.nv-legend > g > g.nv-series > circle[style="stroke-width: 2px; fill: rgb(174, 199, 232); fill-opacity: 1; stroke: rgb(174, 199, 232);"], [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-0[style="stroke-opacity: 1; fill-opacity: 0.75; fill: rgb(174, 199, 232); stroke: rgb(174, 199, 232);"] > rect {fill: orange !important; stroke: orange !important;}
 
  /* Universal */
- div.o_main {margin-left: 250px;}
  header[role="banner"] {background-color: white;}

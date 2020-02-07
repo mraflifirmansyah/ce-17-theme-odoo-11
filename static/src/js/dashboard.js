@@ -16,23 +16,22 @@ function modifyDrawerToggler(){
 }
 
 function toggleDrawerView(){
-    var drawerElement = document.getElementById("odooAppDrawer");
+    var drawerElement = document.getElementsByTagName("body")[0];
 
     if(drawerState == "close"){
         drawerState = "open";
-        drawerElement.classList.remove("drawer-close-custom");
-        drawerElement.classList.add("drawer-open-custom");
+        drawerElement.classList.replace("drawer-long","drawer-short");
     }
     else if(drawerState == "open"){
         drawerState = "close";
-        drawerElement.classList.remove("drawer-open-custom");
-        drawerElement.classList.add("drawer-close-custom");
+        drawerElement.classList.replace("drawer-short","drawer-long");
     }
 
     return;
 }
 
 window.onload = function(){
+    document.getElementsByTagName("body")[0].classList.add("drawer-long");
     this.modifyDrawerToggler();
     this.document.getElementById("drawerToggleBtn").onclick = function(){toggleDrawerView()};
 

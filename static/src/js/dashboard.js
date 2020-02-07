@@ -17,10 +17,12 @@ function modifyDrawerToggler(){
 var drawerState = "long";
 
 function toggleDrawerView(){
-    var drawerOverlay = this.document.getElementsByClassName("drawer-overlay")[0];
+    var drawerOverlay = document.getElementsByClassName("drawer-overlay")[0];
     var drawerElement = document.getElementsByTagName("body")[0];
 
-    drawerOverlay.parentNode.removeChild(drawerOverlay);
+    if(drawerOverlay != undefined){
+        drawerOverlay.parentNode.removeChild(drawerOverlay);
+    }
 
     if(drawerState == "long"){
         drawerState = "short";

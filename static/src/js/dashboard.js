@@ -13,10 +13,7 @@ function modifyDrawerToggler(){
     return;
 }
 
-// Global Variable for toggleDrawerView()
-var drawerState = "long";
-
-function toggleDrawerView(){
+function toggleDrawerView(state){
     var drawerOverlay = document.getElementsByClassName("drawer-overlay")[0];
     var drawerElement = document.getElementsByTagName("body")[0];
 
@@ -24,13 +21,11 @@ function toggleDrawerView(){
         drawerOverlay.parentNode.removeChild(drawerOverlay);
     }
 
-    if(drawerState == "long"){
-        drawerState = "short";
+    if(state == "out"){
         drawerElement.classList.remove("drawer-long");
         drawerElement.classList.add("drawer-short");
     }
-    else if(drawerState == "short"){
-        drawerState = "long";
+    else if(state == "enter"){
         drawerElement.classList.remove("drawer-short");
         drawerElement.classList.add("drawer-long");
     }
@@ -41,7 +36,8 @@ function toggleDrawerView(){
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-long");
     this.modifyDrawerToggler();
-    this.document.getElementById("drawerToggleBtn").onclick = function(){toggleDrawerView()};
+    this.document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter")};
+    this.document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out")};
 
     return;
 }

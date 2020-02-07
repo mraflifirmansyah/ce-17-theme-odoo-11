@@ -3,20 +3,20 @@
 <odoo>
         <template id="webclient_bootstrap" name="CE Dashboard Assets" inherit_id="web.webclient_bootstrap">
             <xpath expr="." position="inside">
-                <link rel="stylesheet" href="https://gitcdn.link/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/css/dashboard.css"/>
-                <script src="https://gitcdn.link/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/js/dashboard.js"/>
+                <link rel="stylesheet" href="https://gitcdn.xyz/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/css/dashboard.css"/>
+                <script src="https://gitcdn.xyz/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/js/dashboard.js"/>
             </xpath>
         </template>
 
         <template id="login_layout" name="CE Login Assets" inherit_id="web.login_layout">
             <xpath expr="." position="inside">
-                <link rel="stylesheet" href="https://gitcdn.link/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/css/login.css"/>
+                <link rel="stylesheet" href="https://gitcdn.xyz/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/css/login.css"/>
             </xpath>
         </template>
 
         <template id="assets_frontend" name="CE Website Assets" inherit_id="web.assets_frontend">
             <xpath expr="." position="inside">
-                <link rel="stylesheet" href="https://gitcdn.link/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/css/website.css"/>
+                <link rel="stylesheet" href="https://gitcdn.xyz/cdn/mraflifirmansyah/ce-17-theme-odoo-11/master/static/src/css/website.css"/>
             </xpath>
         </template>
 </odoo>

@@ -6,7 +6,7 @@
  #appDrawerApps > div:nth-child(18), #appDrawerApps > div:nth-child(20) {display: none !important;}
  #appDrawerApps > div:nth-child(9), #appDrawerApps > div:nth-child(10) {transform: translateY(-198px);}
  #appDrawerApps > div:nth-child(2), #appDrawerApps > div:nth-child(4) {transform: translateY(198px);}
- #appDrawerApps > div > a {display: -webkit-box; width: 5vw; padding: 5%; text-align: left; padding-left: 25%; color: white !important; outline: none;}
+ #appDrawerApps > div > a {display: -webkit-box; padding: 10px; text-align: left; padding-left: 25%; color: white !important; outline: none;}
  #appDrawerApps > div.active {background-color: white; border-radius: 50% 0% 0% 50%;}
  #appDrawerApps > div.active > a {color: #078ec8 !important;}
  #appDrawerAppPanelHead {display: contents;}
@@ -15,8 +15,8 @@
  .app-drawer-icon-open {color: #078ec8;}
  .app-drawer-icon-open:hover {background-color: whitesmoke;}
  .app-drawer-panel-title {display: none;}
- .app-drawer-icon-app {height: 30px !important; width: 30px !important;}
- .app-drawer-title {width: 100px; text-align: justify !important; height: 30px; margin-top: 3px; margin-left: 10px;}
+ .app-drawer-icon-app {height: 25px !important; width: 25px !important; display: table-cell; margin-top: auto; margin-bottom: auto; margin-right: 15px;}
+ .app-drawer-title {text-align: justify !important; height: 30px; margin:auto; margin-left: 10px; display: table-cell; width: auto; vertical-align: middle;}
  .oe_menu_toggler {width: auto; height: 100%;}
 
  /* Drawer State Long */
@@ -31,6 +31,7 @@
  .drawer-short img.app-drawer-icon-app {height: 35px !important; width: 35px !important; display: block; margin: auto; transition: all 1s;}
  .drawer-short p.app-drawer-title {display: none;}
  .drawer-short #appDrawerApps > div {width: 70px; height: 50px; transition: all 1s;}
+ .drawer-short #appDrawerApps > div > a {padding: 8px 8px 8px }
 
  /* Login Page */
  #login-form {opacity: 1 !important;}

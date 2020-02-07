@@ -13,18 +13,14 @@ function modifyDrawerToggler(){
     return;
 }
 
-function removeOverlay(){
-    var drawerOverlay = this.document.getElementsByClassName("drawer-overlay")[0];
-    drawerOverlay.parentNode.removeChild(drawerOverlay);
-
-    return;
-}
-
 // Global Variable for toggleDrawerView()
 var drawerState = "long";
 
 function toggleDrawerView(){
+    var drawerOverlay = this.document.getElementsByClassName("drawer-overlay")[0];
     var drawerElement = document.getElementsByTagName("body")[0];
+
+    drawerOverlay.parentNode.removeChild(drawerOverlay);
 
     if(drawerState == "long"){
         drawerState = "short";
@@ -43,7 +39,6 @@ function toggleDrawerView(){
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-long");
     this.modifyDrawerToggler();
-    this.removeOverlay();
     this.document.getElementById("drawerToggleBtn").onclick = function(){toggleDrawerView()};
 
     return;

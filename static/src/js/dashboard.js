@@ -1,18 +1,3 @@
-function modifyDrawerToggler(){
-    var aToggler = document.getElementsByClassName("app-drawer-toggle")[0];
-    var btnToggler = document.createElement("button");
-    btnToggler.id = "drawerToggleBtn";
-    btnToggler.className = "drawer-toggle navbar-collapse collapse btn btn-default app-drawer-toggle";
-    btnToggler.innerHTML = "<span class=\"sr-only\">Toggle App Drawer</span> \
-                                <i class=\"fa fa-th fa-lg app-drawer-icon-open\" \
-                                t-translation=\"off\" \
-                                aria-hidden=\"true\" \
-                                />";
-    aToggler.parentNode.replaceChild(btnToggler, aToggler);
-
-    return;
-}
-
 function toggleDrawerView(state){
     var drawerOverlay = document.getElementsByClassName("drawer-overlay")[0];
     var drawerElement = document.getElementsByTagName("body")[0];
@@ -88,7 +73,6 @@ function forcaLogoSetup(){
 
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-short");
-    this.modifyDrawerToggler();
     this.removeClearfix();
     this.adjustDrawerItem();
     this.forcaLogoSetup();

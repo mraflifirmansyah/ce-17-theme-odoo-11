@@ -1,32 +1,42 @@
- /* Drawer */
- #odooAppDrawer {border-radius: 0px 10px 10px 0px; background-color: #078ec8;  border: none; z-index: 1; left: 0; box-shadow: none;}
- #appDrawerApps{margin: auto !important;}
- #appDrawerApps > div {width: 100%; height: 40px; padding: 0px; margin-top: 10px !important;}
+/* Universal */
+header[role="banner"] {background-color: white;}
+html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+/* Drawer */
+ #odooAppDrawer {border-radius: 0px; background-color: white;  border: none; z-index: 1; left: 0; box-shadow: 2px 1px 3px 1px #ebecf0;}
+ #appDrawerApps {margin: auto !important;}
+ #appDrawerApps > div {width: 100%; height: 50px; padding: 0px; margin-top: 10px !important; float: none;}
+ #appDrawerApps > div:hover {background-color: whitesmoke; border-radius: 5px 0px 0px 5px;}
  #appDrawerApps > div > a {display: -webkit-box; text-align: justify; color: white !important; outline: none; width: 100%; height: 100%;}
- #appDrawerApps > div.active {background-color: white; border-radius: 10px 0px 0px 10px;}
+ #appDrawerApps > div.active {background-color: white; border-left: #1f7be2 solid 3px;}
+ #appDrawerApps div.active .app-drawer-title {color:#1f7be2 !important;}
+ #appDrawerApps > div.active:hover {background-color: whitesmoke; border-radius: 0px;}
  #appDrawerApps > div.active > a {color: #078ec8 !important;}
- #appDrawerApps .app-drawer-icon-app:hover, #appDrawerApps .app-drawer-title:hover {transform: scale(1.1);}
- #appDrawerAppPanelHead {display: contents;}
- #appDrawerAppPanelHead > div > a.oe_logo > img {transform: scale(0.6); margin-top: 10px; margin-bottom: 10px;}
- #appDrawerAppPanelHead > div {display: grid; text-align: center; width: 100%; align-content: center;}
- #appDrawerAppPanelBody {padding-right: 0px;}
- .app-drawer-icon-open {color: #078ec8; content: "\f00b" !important;}
+ #appDrawerApps div:hover .app-drawer-icon-app, #appDrawerApps div:hover .app-drawer-title {transform: scale(1.1);}
+ #appDrawerAppPanelHead {position: unset !important; height: 46px !important; padding: 0px; margin: 10px auto 10px auto; background-color: transparent; border: none;}
+ #appDrawerAppPanelHead a.oe_logo {display: block; margin: auto; float: none !important; height: 100%;}
+ #appDrawerAppPanelBody {padding-right: 0px; padding-top: 0px;}
+ .app-drawer-icon-open {color: #078ec8; display: none;}
  .app-drawer-icon-open:hover {background-color: whitesmoke;}
  .app-drawer-panel-title {display: none;}
  .app-drawer-icon-app {height: 30px !important; width: 30px !important; display: block; margin: auto 10% auto 10px; transition: margin 1s;}
- .app-drawer-title {margin:auto; display: block;}
+ .app-drawer-title {margin:auto 0px auto 0px; display: block; color: #818f92;}
+ .oe_logo > img {display: block; margin: auto; transform: scale(0.7); height: 100% !important;}
+ .o_tooltip {display: none !important;}
 
  /* Drawer State Long */
  .drawer-long nav#odooAppDrawer {width: 200px !important; transition: width 1s;}
  .drawer-long nav.main-nav, .drawer-long div.o_main {margin-left: 200px; transition: margin 1s;}
+ .drawer-long #logo-short {display: none;}
 
  /* Drawer State Short */
  .drawer-short nav#odooAppDrawer {width: 70px !important; transition: width 1s;}
  .drawer-short nav.main-nav, .drawer-short div.o_main {margin-left: 70px; transition: margin 1s;}
  .drawer-short p.app-drawer-title {opacity: 0; transition: opacity 1s;}
+ .drawer-short #logo-long {display: none;}
 
  /* Navbar Dashboard */
- nav.main-nav {background-color: white !important;}
+ nav.main-nav {background-color: white !important; position: unset;}
  li.app-name {font-weight: bold; display:none !important;}
  li.app-name > span.oe_menu_text {text-transform: uppercase;}
  .o_user_menu > a {color: white !important;}
@@ -37,22 +47,23 @@
  .navbar-default {border: none !important;}
 
  /* Main Dashboard */
- .oe_action, .o_web_settings_dashboard_apps {border-radius: 3%;}
+ .oe_action, .o_web_settings_dashboard_apps {border-radius: 3px;}
  h2.oe_header {padding: 3% 5% 2% 3% !important;}
  .oe_dashboard_column > div.oe_action {border-color: black !important;}
  .oe_dashboard_links {display: none;}
  ul.oe_secondary_menu > li > a {color: #078ec8 !important;}
  table.oe_dashboard_layout_1-1-1 {width: 0px !important;}
+ .o_content > div > div > div {background-color: #f5f8fd !important;}
  
  /* Other Apps */
- .o_control_panel, .breadcrumb {background-color: white !important;}
+ /* .o_control_panel, .breadcrumb {background-color: white !important;}
  div.settings_tab {background-color: white !important;}
  div.settings_tab > div.tab > span.app_name {color: #00438b;}
  div.settings_tab > div.selected {background-color: #00438b !important; box-shadow: none!important;}
  div.settings_tab > div.selected > span.app_name {color: white !important;}
  div.settings {background-color: whitesmoke !important;}
  div.settings > div.app_settings_block > h2, div.settings > div.app_settings_block > * > h2  {background-color: whitesmoke !important;}
- div.settings > div.app_settings_block > div.o_settings_container, div.settings > div.app_settings_block > * > div.o_settings_container {margin-left: 5px;}
+ div.settings > div.app_settings_block > div.o_settings_container, div.settings > div.app_settings_block > * > div.o_settings_container {margin-left: 5px;} */
  
  /* Graph */
  g.nv-multiBarWithLegend {transform: translate(115px, 50px) scale(0.95);}
@@ -73,6 +84,3 @@
  [data-id=action_1_1] {width: 800px; display: block;}
  [data-id=action_1_1] > div.oe_content > div.o_graph {height: 400px !important;}
  [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-1 > rect, [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-multiBarWithLegend > g > g.nv-legendWrap > g.nv-legend > g > g.nv-series > circle[style="stroke-width: 2px; fill: rgb(174, 199, 232); fill-opacity: 1; stroke: rgb(174, 199, 232);"], [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-0[style="stroke-opacity: 1; fill-opacity: 0.75; fill: rgb(174, 199, 232); stroke: rgb(174, 199, 232);"] > rect {fill: orange !important; stroke: orange !important;}
-
- /* Universal */
- header[role="banner"] {background-color: white;}

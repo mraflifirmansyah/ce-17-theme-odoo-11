@@ -14,7 +14,7 @@
  .app-drawer-icon-open:hover {background-color: whitesmoke;}
  .app-drawer-panel-title {display: none;}
  .app-drawer-icon-app {height: 30px !important; width: 30px !important; display: block; margin: auto 10% auto 10px; transition: margin 1s;}
- .app-drawer-title {margin:auto; display: block; ;}
+ .app-drawer-title {margin:auto; display: block;}
 
  /* Drawer State Long */
  .drawer-long nav#odooAppDrawer {width: 200px !important; transition: width 1s;}

@@ -1,16 +1,18 @@
  /* Drawer */
- #odooAppDrawer {border-radius: 0px 10px 10px 0px; background-color: #078ec8;  border: none; z-index: 1; left: 0; box-shadow: none;}
+ #odooAppDrawer {border-radius: 0px; background-color: white;  border: none; z-index: 1; left: 0; box-shadow: 2px 1px 3px 1px #ebecf0;}
  #appDrawerApps{margin: auto !important;}
- #appDrawerApps > div {width: 100%; height: 40px; padding: 0px; margin-top: 10px !important;}
+ #appDrawerApps > div {width: 100%; height: 40px; padding: 0px; margin-top: 10px !important; float: none;}
  #appDrawerApps > div > a {display: -webkit-box; text-align: justify; color: white !important; outline: none; width: 100%; height: 100%;}
- #appDrawerApps > div.active {background-color: white; border-radius: 10px 0px 0px 10px;}
+ #appDrawerApps > div.active {background-color: white; border-left: #1f7be2 solid 3px;}
  #appDrawerApps > div.active > a {color: #078ec8 !important;}
  #appDrawerApps .app-drawer-icon-app:hover, #appDrawerApps .app-drawer-title:hover {transform: scale(1.1);}
- #appDrawerAppPanelHead {display: contents;}
+ #appDrawerAppPanelHead {display: none;}
+ /*
  #appDrawerAppPanelHead > div > a.oe_logo > img {transform: scale(0.6); margin-top: 10px; margin-bottom: 10px;}
  #appDrawerAppPanelHead > div {display: grid; text-align: center; width: 100%; align-content: center;}
+ */
  #appDrawerAppPanelBody {padding-right: 0px;}
- .app-drawer-icon-open {color: #078ec8; content: "\f00b" !important;}
+ .app-drawer-icon-open {color: #078ec8; display: none;}
  .app-drawer-icon-open:hover {background-color: whitesmoke;}
  .app-drawer-panel-title {display: none;}
  .app-drawer-icon-app {height: 30px !important; width: 30px !important; display: block; margin: auto 10% auto 10px; transition: margin 1s;}

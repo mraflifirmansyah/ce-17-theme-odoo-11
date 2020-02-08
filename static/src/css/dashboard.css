@@ -16,7 +16,7 @@
  .app-drawer-icon-open:hover {background-color: whitesmoke;}
  .app-drawer-panel-title {display: none;}
  .app-drawer-icon-app {height: 30px !important; width: 30px !important; display: block; margin: auto 10% auto 10px; transition: margin 1s;}
- .app-drawer-title {margin:auto 0px auto 0px;; display: block; color: #818f92;}
+ .app-drawer-title {margin:auto 0px auto 0px; display: block; color: #818f92;}
  #appDrawerApps div.active .app-drawer-title {color:#1f7be2 !important;}
 
  /* Drawer State Long */

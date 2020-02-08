@@ -33,11 +33,24 @@ function toggleDrawerView(state){
     return;
 }
 
+function removeClearfix(){
+    var element = document.getElementsByClassName("clearfix");
+    var i = 0;
+
+    while(element[i] != undefined){
+        element[i].parentNode.removeChild(element[i]);
+        i++;
+    }
+
+    return;
+}
+
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-short");
     this.modifyDrawerToggler();
-    this.document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter")};
-    this.document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out")};
+    this.removeClearfix();
+    // this.document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter")};
+    // this.document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out")};
 
     return;
 }

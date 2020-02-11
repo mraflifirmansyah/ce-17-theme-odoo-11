@@ -1,3 +1,6 @@
+// Global Variables
+var prevToggleID;
+
 function toggleDrawerView(state){
     var drawerOverlay = document.getElementsByClassName("drawer-overlay")[0];
     var drawerElement = document.getElementsByTagName("body")[0];
@@ -93,14 +96,88 @@ function drawerScroll(event){
     return;
 }
 
-window.onload = function(){
-    document.getElementsByTagName("body")[0].classList.add("drawer-short");
-    this.removeClearfix();
-    this.adjustDrawerItem();
-    this.forcaLogoSetup();
-    this.document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter");};
-    this.document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out");};
-    this.document.getElementById("odooAppDrawer").onwheel = function(){drawerScroll(event);};
+function submenuIDAndOnClickAssignment(){
+    var parentNode = document.getElementsByClassName("oe_secondary_menu");
+    for(var i = 0; i < parentNode.length; i++){
+        var parentID = parentNode[i].getAttribute("data-menu-parent");
+        var dropdownNode = parentNode[i].getElementsByClassName("oe_secondary_submenu");
+        for(var j = 0; j < dropdownNode.length; j++){
+            dropdownNode[j].id = "dropdown_" + parentID + "_" + j;
+            dropdownNode[j].parentElement.getElementsByClassName("dropdown-toggle")[0].setAttribute("toggled-id", "dropdown_" + parentID + "_" + j);
+            dropdownNode[j].parentElement.getElementsByClassName("dropdown-toggle")[0].onclick = function(){detectDropdownToggle(event);};
+        }
+    }
 
     return;
 }
+
+function detectDropdownToggle(event){
+    var currentToggleID = event.target.getAttribute("toggled-id");
+    var elementID = document.getElementById(currentToggleID);
+    
+    if(elementID.style.display == "none" || elementID.style.display == ""){
+        elementID.style.display = "-webkit-box";
+    }
+    else{
+        elementID.style.display = "none";
+    }
+
+    if(prevToggleID != undefined && prevToggleID != currentToggleID){
+        var prevElementID = document.getElementById(prevToggleID);
+        prevElementID.style.display = "none";
+    }
+
+    prevToggleID = currentToggleID;
+
+    return;
+}
+
+function rearrangeNavbarDropdownMenu(){
+    var dropdownMenu = document.getElementsByClassName("oe_secondary_submenu");
+    var headerEl = document.getElementsByTagName("header")[0]; 
+    var newEl = document.createElement("div");
+    newEl.id = "dropdownMenu";
+
+    headerEl.appendChild(newEl);
+
+    for(var i = 0; i < dropdownMenu.length; i++){
+        newEl.appendChild(dropdownMenu[0]);
+    }
+
+    return;
+}
+
+function bodyClickDetector(event){
+    var clickedElement = event.target;
+
+    if(clickedElement.classList.contains("dropdown-toggle") == false && clickedElement.classList.contains("oe_secondary_submenu") == false){
+        if(prevToggleID != null)
+            document.getElementById(prevToggleID).style.display = "none";
+    }
+
+    if(clickedElement.classList.contains("oe_secondary_submenu") == true || clickedElement.classList.contains("oe_secondary_menu") == true){
+        var elID = clickedElement.id;
+        document.querySelector("a[toggled-id=\"" + elID + "\"]").parentElement.classList.add("active-open");
+    }
+    else{
+        if(document.getElementsByClassName("active-open")[0] != undefined)
+            document.getElementsByClassName("active-open")[0].classList.remove("active-open");
+    }
+
+    return;
+}
+
+window.onload = function(){
+    document.getElementsByTagName("body")[0].classList.add("drawer-short");
+    removeClearfix();
+    adjustDrawerItem();
+    forcaLogoSetup();
+    submenuIDAndOnClickAssignment();
+    rearrangeNavbarDropdownMenu();
+    document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter");};
+    document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out");};
+    document.getElementById("odooAppDrawer").onwheel = function(){drawerScroll(event);};
+    document.getElementsByTagName("body")[0].onclick = function(){bodyClickDetector(event);};
+
+    return;
+};

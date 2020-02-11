@@ -4,24 +4,24 @@ html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se
 
 /* Drawer */
  #odooAppDrawer {border-radius: 0px; background-color: white;  border: none; z-index: 1; left: 0; box-shadow: 2px 1px 3px 1px #ebecf0;}
- #appDrawerApps {margin: auto !important;}
+ #appDrawerApps {margin: auto !important; height: 100%;}
  #appDrawerApps > div {width: 100%; height: 50px; padding: 0px; margin-top: 10px !important; float: none;}
  #appDrawerApps > div:hover {background-color: whitesmoke; border-radius: 5px 0px 0px 5px;}
  #appDrawerApps > div > a {display: -webkit-box; text-align: justify; color: white !important; outline: none; width: 100%; height: 100%;}
- #appDrawerApps > div.active {background-color: white; border-left: #1f7be2 solid 3px;}
+ #appDrawerApps > div.active {border-left: #1f7be2 solid 3px; background-color: #1f7be20f;}
  #appDrawerApps div.active .app-drawer-title {color:#1f7be2 !important;}
  #appDrawerApps > div.active:hover {background-color: whitesmoke; border-radius: 0px;}
- #appDrawerApps > div.active > a {color: #078ec8 !important;}
  #appDrawerApps div:hover .app-drawer-icon-app, #appDrawerApps div:hover .app-drawer-title {transform: scale(1.1);}
- #appDrawerAppPanelHead {position: unset !important; height: 46px !important; padding: 0px; margin: 10px auto 10px auto; background-color: transparent; border: none;}
+ #appDrawerAppPanelHead {position: unset !important; height: 46px !important; padding: 0px; margin: 20px auto 10px auto; background-color: white; border: none;}
  #appDrawerAppPanelHead a.oe_logo {display: block; margin: auto; float: none !important; height: 100%;}
- #appDrawerAppPanelBody {padding-right: 0px; padding-top: 0px;}
+ #appDrawerAppPanelBody {padding-right: 0px; padding-top: 0px; height: 100%;}
+ #appDrawerAppMenu {height: 100%;}
  .app-drawer-icon-open {color: #078ec8; display: none;}
  .app-drawer-icon-open:hover {background-color: whitesmoke;}
  .app-drawer-panel-title {display: none;}
  .app-drawer-icon-app {height: 30px !important; width: 30px !important; display: block; margin: auto 10% auto 10px; transition: margin 1s;}
  .app-drawer-title {margin:auto 0px auto 0px; display: block; color: #818f92;}
- .oe_logo > img {display: block; margin: auto; transform: scale(0.7); height: 100% !important;}
+ .oe_logo > img {display: block; margin: auto; height: 30px !important; background-color: white;}
  .o_tooltip {display: none !important;}
 
  /* Drawer State Long */
@@ -35,23 +35,20 @@ html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se
  .drawer-short p.app-drawer-title {opacity: 0; transition: opacity 1s;}
  .drawer-short #logo-long {display: none;}
 
- /* Navbar Dashboard */
- nav.main-nav {background-color: white !important; position: unset;}
- li.app-name {font-weight: bold; display:none !important;}
- li.app-name > span.oe_menu_text {text-transform: uppercase;}
- .o_user_menu > a {color: white !important;}
- .navbar-nav > li > a {color: #078ec8 !important; background-color: white;}
- .navbar-nav > li > a.dropdown-toggle:hover, .navbar-nav > li > a.oe_menu_leaf:hover, .navbar-systray-item > li > a:hover, .navbar-systray-item > li.open > a.dropdown-toggle, .o_mail_navbar_item > a.dropdown-toggle:hover, .navbar-nav > li.open > a, ul.oe_secondary_menu > li.active > a:hover {background-color: whitesmoke !important; color: #078ec8 !important;}
- .navbar-nav > .open > a, .navbar-nav > .open > a:focus {color: #345577;}
- .navbar-nav > li.active > a.oe_menu_leaf, .navbar-nav > li.active > a.dropdown-toggle:focus {background-color: transparent !important;}
- .navbar-default {border: none !important;}
+ /* Navbar */
+ /* nav.main-nav {background-color: white !important; position: unset; padding: 0px 20px 0px 10px; border: none;}
+ li.app-name {display:none !important;}
+ .oe_secondary_menu a {color: #1f7be2 !important;}
+ .oe_secondary_menu > li > a:hover {background-color: whitesmoke !important; color:#1f7be2 !important;}
+ .oe_secondary_menu .active > a {border-bottom: solid 2px #1f7be2; background-color: #1f7be20f !important;}
+ .oe_secondary_menu .dropdown-menu .active > a {border-left: solid 2px #1f7be2; border-bottom: none; background-color: #1f7be20f !important;}
+ .oe_secondary_menu .active > a > span { color: #1f7be2 !important;} */
 
- /* Main Dashboard */
+ /* Dashboard */
  .oe_action, .o_web_settings_dashboard_apps {border-radius: 3px;}
  h2.oe_header {padding: 3% 5% 2% 3% !important;}
  .oe_dashboard_column > div.oe_action {border-color: black !important;}
  .oe_dashboard_links {display: none;}
- ul.oe_secondary_menu > li > a {color: #078ec8 !important;}
  table.oe_dashboard_layout_1-1-1 {width: 0px !important;}
  .o_content > div > div > div {background-color: #f5f8fd !important;}
  

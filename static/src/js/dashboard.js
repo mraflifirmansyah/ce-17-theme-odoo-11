@@ -71,13 +71,36 @@ function forcaLogoSetup(){
     return;
 }
 
+function drawerScroll(event){
+    var scrollY = document.getElementById("odooAppDrawer").scrollTop;
+    var scrollYMax = document.getElementById("odooAppDrawer").scrollTopMax;
+    var scrollYChange = arguments[0].deltaY;
+
+    if(scrollYChange < 0){
+        document.getElementById("odooAppDrawer").scrollTop += -10;
+    }
+    else if(scrollYChange > 0){
+        document.getElementById("odooAppDrawer").scrollTop += 10;
+    }
+
+    if(scrollY > scrollYMax){
+        document.getElementById("odooAppDrawer").scrollTop = scrollYMax;
+    }
+    else if(scrollY < 0){
+        document.getElementById("odooAppDrawer").scrollTop = 0;
+    }
+
+    return;
+}
+
 window.onload = function(){
     document.getElementsByTagName("body")[0].classList.add("drawer-short");
     this.removeClearfix();
     this.adjustDrawerItem();
     this.forcaLogoSetup();
-    this.document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter")};
-    this.document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out")};
+    this.document.getElementById("odooAppDrawer").onmouseover = function(){toggleDrawerView("enter");};
+    this.document.getElementById("odooAppDrawer").onmouseout = function(){toggleDrawerView("out");};
+    this.document.getElementById("odooAppDrawer").onwheel = function(){drawerScroll(event);};
 
     return;
 }

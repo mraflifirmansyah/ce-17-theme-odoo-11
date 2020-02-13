@@ -108,26 +108,31 @@ function submenuIDAndOnClickAssignment(){
         }
     }
 
-    return;
-}
+    parentNode = document.getElementsByClassName("oe_secondary_submenu");
+    for(var i = 0; i < parentNode.length; i++){
+        var dropdownNode = parentNode[i].getElementsByClassName("oe_menu_leaf");
+        for(var j = 0; j < dropdownNode.length; j++){
+            dropdownNode[j].addEventListener("click", function(event){
+                if(document.getElementsByClassName("o_sub_menu_content")[0].getElementsByClassName("active")[0] != undefined){
+                    document.getElementsByClassName("o_sub_menu_content")[0].getElementsByClassName("active")[0].classList.remove("active");
+                }
+                if(event.currentTarget.parentElement.parentElement.parentElement.getElementsByClassName("active")[0] != undefined){
+                    event.currentTarget.parentElement.parentElement.parentElement.getElementsByClassName("active")[0].classList.remove("active");
+                }
 
-function detectDropdownToggle(event){
-    var currentToggleID = event.target.getAttribute("toggled-id");
-    var elementID = document.getElementById(currentToggleID);
-    
-    if(elementID.style.display == "none" || elementID.style.display == ""){
-        elementID.style.display = "-webkit-box";
-    }
-    else{
-        elementID.style.display = "none";
-    }
+                if(document.getElementsByClassName("o_sub_menu_content")[0].getElementsByClassName("open")[0] != undefined){
+                    document.getElementsByClassName("o_sub_menu_content")[0].getElementsByClassName("open")[0].classList.add("active");
+                }
+                else if(document.getElementsByClassName("o_sub_menu_content")[0].getElementsByClassName("active-open")[0] != undefined){
+                    document.getElementsByClassName("o_sub_menu_content")[0].getElementsByClassName("active-open")[0].classList.add("active");
+                }
 
-    if(prevToggleID != undefined && prevToggleID != currentToggleID){
-        var prevElementID = document.getElementById(prevToggleID);
-        prevElementID.style.display = "none";
-    }
+                event.currentTarget.parentElement.classList.add("active");
 
-    prevToggleID = currentToggleID;
+                return;
+            });
+        }
+    }
 
     return;
 }
@@ -147,7 +152,32 @@ function rearrangeNavbarDropdownMenu(){
     return;
 }
 
+function detectDropdownToggle(event){
+    var currentToggleID = event.currentTarget.getAttribute("toggled-id");
+    var elementID = document.getElementById(currentToggleID);
+    
+    if(elementID.style.display == "none" || elementID.style.display == ""){
+        elementID.style.display = "-webkit-box";
+    }
+    else{
+        elementID.style.display = "none";
+    }
+
+    if(prevToggleID != undefined && prevToggleID != currentToggleID){
+        var prevElementID = document.getElementById(prevToggleID);
+        prevElementID.style.display = "none";
+    }
+
+    prevToggleID = currentToggleID;
+    // debugger;
+
+    return;
+}
+
 function bodyClickDetector(event){
+    if(event == undefined)
+        return;
+        
     var clickedElement = event.target;
 
     if(clickedElement.classList.contains("dropdown-toggle") == false && clickedElement.classList.contains("oe_secondary_submenu") == false){

@@ -36,26 +36,30 @@ html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se
  .drawer-short #logo-long {display: none;}
 
  /* Navbar */
- .oe_secondary_menu .active > a > span { color: #1f7be2 !important;} */
  .app-name {display: none !important;}
- .main-nav {padding: 0px 20px; position: unset; background-color: white;}
+ .main-nav {padding: 0px 40px 0px 20px; position: unset; background-color: white; border: none;}
  .oe_secondary_menu > li > a {color: navy !important;}
  .oe_secondary_menu > li.active > a {border-bottom: solid 2px navy; background-color: #0000800f !important;}
  .oe_secondary_menu > li.open > a, .active-open > a {background-color: whitesmoke !important;}
  .oe_secondary_menu > li > a:hover {background-color: whitesmoke !important; color: navy !important;}
  .oe_secondary_menu > li > a > span {color: navy;}
+ .oe_secondary_menu > li:hover > a {transform: scale(1.05);}
  .oe_secondary_submenu {display: none; position: unset; width: 100%; float: none !important; padding-left: 35px;}
- .oe_secondary_submenu > li > a {}
+ .oe_secondary_submenu > li {display: -webkit-inline-box;}
+ .oe_secondary_submenu > li:hover > a {transform: scale(1.05);}
  .oe_secondary_submenu span {color: navy;}
  .drawer-short .oe_secondary_submenu {margin-left: 70px; transition: margin 1s;}
  .drawer-long .oe_secondary_submenu {margin-left: 200px; transition: margin 1s;}
+ .oe_menu_text {color: navy !important;}
+ .oe_topbar_name {display: none;}
 
+ /* COntrol Panel */
+ .o_search_options {display: block !important;}
 
  /* Dashboard */
  .oe_action, .o_web_settings_dashboard_apps {border-radius: 3px;}
  h2.oe_header {padding: 3% 5% 2% 3% !important;}
  .oe_dashboard_column > div.oe_action {border-color: black !important;}
- .oe_dashboard_links {display: none;}
  table.oe_dashboard_layout_1-1-1 {width: 0px !important;}
  .o_content > div > div > div {background-color: #f5f8fd !important;}
  
@@ -70,11 +74,11 @@ html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se
  div.settings > div.app_settings_block > div.o_settings_container, div.settings > div.app_settings_block > * > div.o_settings_container {margin-left: 5px;} */
  
  /* Graph */
- g.nv-multiBarWithLegend {transform: translate(115px, 50px) scale(0.95);}
- g.nvd3-svg > g.nv-axis > g > g.tick > line[x2="0"] {display: none;}
+ /* g.nv-multiBarWithLegend {transform: translate(115px, 50px) scale(0.95);}
+ g.nvd3-svg > g.nv-axis > g > g.tick > line[x2="0"] {display: none;} */
  
  /* Favourite Item at Dashboard */
- [data-id=action_0_0] {width: 450px; display: block;}
+ /*[data-id=action_0_0] {width: 450px; display: block;}
  [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g >g.nv-legendWrap > g.nv-legend > g > g.nv-series > text.nv-legend-text {font-size:  12px !important;}
  [data-id=action_0_0] > div.oe_content > div.o_graph {height: 910px !important;}
  [data-id=action_0_0] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-wrap > g > g.nv-legendWrap > g.nv-legend > g > g.nv-series > text.nv-legend-text {font-size: 10px !important;}
@@ -88,3 +92,4 @@ html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se
  [data-id=action_1_1] {width: 800px; display: block;}
  [data-id=action_1_1] > div.oe_content > div.o_graph {height: 400px !important;}
  [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-1 > rect, [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nv-multiBarWithLegend > g > g.nv-legendWrap > g.nv-legend > g > g.nv-series > circle[style="stroke-width: 2px; fill: rgb(174, 199, 232); fill-opacity: 1; stroke: rgb(174, 199, 232);"], [data-id=action_1_1] > div.oe_content > div.o_graph > div.o_graph_svg_container > svg.nvd3-svg > g.nvd3 > g > g.nv-barsWrap > g.nv-wrap > g > g.nv-groups > g.nv-series-0[style="stroke-opacity: 1; fill-opacity: 0.75; fill: rgb(174, 199, 232); stroke: rgb(174, 199, 232);"] > rect {fill: orange !important; stroke: orange !important;}
+ */

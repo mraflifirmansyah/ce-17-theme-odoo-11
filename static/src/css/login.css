@@ -6,4 +6,5 @@ div.body_login>.o_database_list>.text-center>.company_logo{padding-bottom: 10%;}
 div.body_login>.o_database_list>.oe_login_form>.oe_login_buttons>.btn-primary{width: 100%;border-radius: 25px;height: 45px; background-image: linear-gradient(to right,
 blue, teal)}
 
-body .body_login {background-image: url('https://github.com/mraflifirmansyah/ce-17-theme-odoo-11/blob/ika-experimental/static/src/img/bg_login_2.jpg?raw=true');}
+body .body_login {background-image: url('https://github.com/mraflifirmansyah/ce-17-theme-odoo-11/blob/master/static/src/img/bg_login.png?raw=true');}
+

@@ -1,0 +1,15 @@
+#company_address{
+    color: white;
+}
+.div-form {
+    background-color: grey;
+    padding: 5%;
+    width: 80%;
+}
+#form-col{
+    width: 100%;
+}
+.col-md-3.col-sm-4.control-label {
+    text-align: left;
+    width: 100%;
+}

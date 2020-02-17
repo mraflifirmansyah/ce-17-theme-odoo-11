@@ -1,0 +1,778 @@
+<t name="Home" priority="29" t-name="website.homepage">
+  <t t-call="website.layout">
+    <t t-set="pageName" t-value="'homepage'"/>
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="s_text_block_image_fw bg-white oe_img_bg" style="background-position: 50% 100%; background-image: url(&quot;/web/image/website.s_background_image_02&quot;);">
+        <div class="container">
+          <div class="row"/>
+        </div>
+      </section>
+      <section class="s_title" style="">
+        <div class="container">
+          <div class="row"/>
+        </div>
+      </section>
+      <section class="s_image_text bg-black-25 custom_img mb0 mt0 oe_img_bg oe_custom_bg" style="background-position: 59.44% 99.74%; background-image: url(&quot;/web/image/3879/bg_header.png&quot;);">
+        <div class="container fadeIn">
+          <div class="row">
+            <div id="title" class="col-md-12 mb128 mt128" style="text-align: center;">
+              <p>
+                <font class="main-title" style="font-size: 72px;">
+                  <b>FORCA CRM</b>
+                </font>
+              </p>
+              <p>
+                <font style="color: rgb(255,255,255); font-size: 24px;">Client problem is our revenue, If they don't have, make one!</font>
+              </p>
+              <div id="sign-in" class="mb0" style="&#10;">
+                <a href="http://crm.sisi.id" id="btn-signIn" class="pull-right mt8 btn btn-info-2 btn-lg" target="_blank" data-original-title="" title="" style="color: rgb(255,255,255);">
+                  <font style="" data-original-title="" title="Sign In" class="text-delta">Sign In</font>
+                </a>
+              </div>
+              <div id="sign-up" class="mb0" style="">
+                <a href="http://crm.sisi.id" id="btn-signUp" class="pull-right mt8 btn btn-info-2 btn-lg" target="_blank" data-original-title="" title="" style=" color: #0034ff;">
+                  <font style="" data-original-title="" title="" class="text-delta">Sign Up<br/></font>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ol/>
+      <section class="s_text_block mt32">
+        <div class="container">
+          <div class="row"/>
+        </div>
+      </section>
+      <div style="text-align: center;"/>
+      <section class="s_image_text oe_img_bg oe_custom_bg" style="background-image: url(&quot;/web/image/3918/1@2x.png&quot;);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mb0 mt0" style="text-align: center;">
+              <p style=" border-top: 1px solid;transform: translateX(-25%) translateY(5500%) scaleX(1) scaleY(5);width: 50%;float: left;"/>
+              <p style=" border-top: 1px solid;transform: translateX(25%) translateY(5500%) scaleX(1) scaleY(5); width: 50%;float: right;"/>
+              <font style="font-size: 36px;"> </font>
+              <b>
+                <font style="font-size: 28px;">ABOUT US</font>
+              </b>
+              <font style="">
+                <br/>
+              </font>
+              <i>
+                <font style="font-size: 18px;" class="text-gray">CRM PT SISI is CRM developed by PT Sinergi Informatika Semen Indonesia (SISI) was created to help facilitate you in advancing your business &amp;nbsp;</font>
+              </i>
+              <br/>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_image_text oe_img_bg oe_custom_bg" style="background-image: url(&quot;/web/image/3918/1@2x.png&quot;); background-position: 89.86% 24.38%;">
+        <div class="container">
+          <div class="row">
+            <div class="mt32 mb128 col-md-6">
+              <img class="img img-responsive center-block mb16" src="/web/image/3917/l.png" alt="Odoo image and text block" data-original-title="" title="" style="width: 100%; transform: translateX(-2.9%) translateY(12.2%) scaleX(1.02) scaleY(1.25); animation-play-state: paused; transition: none 0s ease 0s;"/>
+            </div>
+            <div class="mb32 mt32 col-md-6">
+              <ul class="content-list" style="">
+                <p id="shape" style="">
+                  <font class="text-white" style="">&amp;nbsp;</font>
+                  <span class="tlid-translation translation" lang="en">
+                    <font class="text-white" style="">The work process has become more efficient and optimized.</font>
+                  </span>
+                  <b>
+                    <font class="num-lis text-white" style="">01</font>
+                  </b>
+                </p>
+                <p id="shape">
+                  <font class="text-white" style=""><span class="tlid-translation translation" lang="en"><span title="">Make it easy to monitor and evaluate work processes.</span></span>&amp;nbsp; </font>
+                  <b>
+                    <font class="num-lis text-white" style="">02</font>
+                  </b>
+                </p>
+                <p id="shape">
+                  <span class="tlid-translation translation" lang="en">
+                    <span title="">
+                      <font class="text-white" style="">Decision making becomes more precise and faster.</font>
+                    </span>
+                  </span>
+                  <b>
+                    <font class="num-lis text-white" style="">03</font>
+                  </b>
+                </p>
+                <p id="shape">
+                  <span class="tlid-translation translation" lang="en">
+                    <span title="">
+                      <font class="text-white" style="">Increase sales.</font>
+                    </span>
+                  </span>
+                  <b>
+                    <font class="num-lis text-white" style="">04</font>
+                  </b>
+                </p>
+                <p id="shape">
+                  <span class="tlid-translation translation" lang="en">
+                    <span title="">
+                      <font class="text-white" style="">Build customer loyalty.</font>
+                    </span>
+                  </span>
+                  <b>
+                    <font class="num-lis text-white" style="">05</font>
+                  </b>
+                </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="jumbotron s_button bg-gray-lighter oe_img_bg oe_custom_bg" style="background-image: linear-gradient(to right, #194B70, rgb(39, 152, 208)); inherit: ;background-position: 4.7% 77.28%;">
+        <div class="container " style="margin-left: 10%; margin-right: 10%; width:75%;">
+          <div class="row">
+            <div class="col-md-9 mt0">
+              <p class="mb0">
+                <strong>
+                  <font class="text-white" style="font-size: 28px;">Forca CRM will make your business easier and comfortable</font>
+                </strong>
+              </p>
+            </div>
+            <div class="col-md-3 mt0">
+              <a href="/contactus" style="" id="btn-register" class="pull-right mt8 btn btn-info-2 btn-lg">
+                <b>
+                  <span class="o_default_snippet_text" data-original-title="" title="">Try Now</span>
+                </b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_image_text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mb32 mt16" style="text-align: center;">
+              <p style=" border-top: 1px solid;transform: translateX(-25%) translateY(5500%) scaleX(1) scaleY(5);width: 50%;float: left;"/>
+              <p style=" border-top: 1px solid;transform: translateX(25%) translateY(5500%) scaleX(1) scaleY(5); width: 50%;float: right;"/>
+              <font style="font-size: 36px;"> </font>
+              <b>
+                <font style="font-size: 28px;">MAIN FEATURES</font>
+              </b>
+              <font style="">
+                <br/>
+              </font>
+              <i>
+                <font style="font-size: 18px;" class="text-gray">Forca CRM is equipped with features that very benefical fr the development your business</font>
+              </i>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_features bg-delta mt0" style="background-image: linear-gradient(to right, #144C68,#2798D0); margin-left: 8%; margin-right: 8%; ">
+        <div class="container">
+          <div class="feature row mt16 mb16" style="margin-bottom: 0px !important;">
+            <div class="col-md-4 text-center mt32 mb0" style="margin-left: 12%;">
+              <img src="/web/image/4042/menu.png" style="" class="pull-left img-features" data-original-title="" title=""/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <b>
+                <font style="font-size: 18px;" class="text-beta">
+                  <br/>
+                </font>
+              </b>
+              <b>
+                <font style="font-size: 18px;" class="text-beta">Contact</font>
+              </b>
+              <b>
+                <font style="font-size: 18px;" class="text-beta">
+                  <br/>
+                </font>
+              </b>
+              <div style="text-align: center;">
+                <font class="text-white" style="font-size: 12px;">Management of opportunities for</font>
+                <font class="text-white" style="font-size: 12px;">projects that can be obtained and&amp;nbsp;projects that have been successfully&amp;nbsp;obtained or projects that have failed&amp;nbsp;to be obtained</font>
+              </div>
+            </div>
+            <div class="col-md-4 text-center mt32 mb0">
+              <img src="/web/image/4061/lead.png" style="" class="pull-left img-features" data-original-title="" title=""/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <div>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">Leads</font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <div style="text-align: center;">
+                  <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">Management of opportunities for</font>
+                  <span style="font-family: Roboto, sans-serif;"/>
+                  <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">projects that can be obtained and&amp;nbsp;projects that have been successfully&amp;nbsp;obtained or projects that have failed&amp;nbsp;to be obtained.</font>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center mt32 mb0">
+              <img src="/web/image/4129/sales%20order.png" style="" class="pull-left img-features" data-original-title="" title=""/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <div>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">Sales Order</font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <div style="text-align: center;">
+                  <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">Management of sales contracts that have been ag­reed by both parties based&amp;nbsp;on the quotation that has been sent. In this process,the status of a prospective customer&amp;nbsp; ­will change to a customer.</font>
+                  <span style="font-family: Roboto, sans-serif; font-size: 12px;">&amp;nbsp;</span>
+                  <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">
+                    <br/>
+                  </font>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_features bg-delta" style="background-image: linear-gradient(to right, #144C68,#2798D0);margin-top: 0px !important; margin-left: 8%;     margin-right: 8%;">
+        <div class="container">
+          <div class="feature row mt16 mb16" style="margin-top: 0px !important;">
+            <div class="col-md-4 text-center mb0 mt32" style="margin-left: 12%;">
+              <img src="/web/image/4130/invoice.png" style="" class="pull-left img-features" data-original-title="" title=""/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <b>
+                <font style="font-size: 18px;" class="text-beta">
+                  <br/>
+                </font>
+              </b>
+              <b>
+                <font style="font-size: 18px;" class="text-beta">Invoice</font>
+              </b>
+              <b>
+                <font style="font-size: 18px;" class="text-beta">
+                  <br/>
+                </font>
+              </b>
+              <div style="text-align: center;">
+                <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">Management of opportunities for</font>
+                <span style="color: rgb(252, 231, 125); font-family: Roboto, sans-serif; font-size: 18px;">&amp;nbsp;</span>
+                <span style="font-family: Roboto, sans-serif; font-size: 12px;"/>
+                <span style="color: rgb(252, 231, 125); font-family: Roboto, sans-serif; font-size: 18px;"/>
+                <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">projects that can be obtained and&amp;nbsp;projects that have been successfully&amp;nbsp;obtained or projects that have failed&amp;nbsp;to be obtained.</font>
+              </div>
+            </div>
+            <div class="col-md-4 text-center mt32 mb0">
+              <img src="/web/image/4131/survey.png" style="" class="pull-left img-features" data-original-title="" title=""/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <div>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">Survey</font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <div style="text-align: center;">
+                  <span style="color: rgb(255, 255, 255); font-family: Roboto, sans-serif; font-size: 12px;">Management of opportunities forprojects that can be obtained and&amp;nbsp;projects that have been successfully&amp;nbsp;obtained or projects that have failed&amp;nbsp;to be obtained.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center mt32 mb0">
+              <img src="/web/image/4080/helpdesk.png" style="" class="pull-left img-features" data-original-title="" title=""/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <div>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">Helpdesk</font>
+                </b>
+                <b>
+                  <font style="font-size: 18px;" class="text-beta">
+                    <br/>
+                  </font>
+                </b>
+                <div style="text-align: center;">
+                  <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">Management of opportunities for</font>
+                  <span style="font-family: Roboto, sans-serif;"/>
+                  <font class="text-white" style="font-family: Roboto, sans-serif; font-size: 12px;">projects that can be obtained and&amp;nbsp;projects that have been successfully&amp;nbsp;obtained or projects that have failed&amp;nbsp;to be obtained.quest.&amp;nbsp;</font>
+                </div>
+                <font class="text-white" style="font-size: 12px;">
+                  <br/>
+                </font>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ul/>
+      <section class="s_text_block">
+        <div class="container">
+          <h2 class="text-center">
+            <font style="font-size: 24px; background-color: white; padding: 14px;">
+              <b>TOP MANAGEMENT</b>
+            </font>
+          </h2>
+        </div>
+      </section>
+      <div style="text-align: center;">
+        <section class="s_three_columns mt0">
+          <div class="container">
+            <div class="row top-div">
+              <div class="mb48 col-md-5 mt0">
+                <div class="img-div">
+                  <div class="img-border">
+                    <img class="img img-responsive " src="/web/image/4115/top%20managent.png" alt="Odoo - Sample 1 for three columns" data-original-title="" title="" style=""/>
+                  </div>
+                </div>
+                <p style="text-align: center;">
+                  <br/>
+                  <b>
+                    <font style="color: rgb(0, 0, 255);">
+                      <br/>
+                    </font>
+                  </b>
+                </p>
+                <p style="text-align: center;">
+                  <b>
+                    <font style="color: rgb(0, 0, 255);">Tina T. Kemala Intan</font>
+                  </b>
+                </p>
+                <p style="text-align: center;">
+                  <font style="color: rgb(0, 0, 255);">President Commissioner</font>
+                </p>
+                <p style="text-align: center;">
+                  <font style="color: rgb(0, 0, 255); font-size: 18px;">
+                    <br/>
+                  </font>
+                  <b>
+                    <font style="font-size: 18px;"/>
+                  </b>
+                </p>
+                <p style="text-align: center;">
+                  <font style="font-size: 12px;">Tina T. Kemala Intan menjabat sebagai Komisaris Utama PT Sinergi Informatika Semen Indonesia sejak tahun 2019.</font>
+                </p>
+                <p style="text-align: center;">
+                  <font style="font-size: 12px;">Saat ini beliau menjabat sebagai Direktur SDM dan Hukum PT Semen Indonesia (Persero) Tbk. tahun jabatan 2019-2024. Sebelumnya, beliau merupakan Direktur Sumber Daya Manusia, Umum, &amp;amp; TI PT Angkasa Pura II.</font>
+                </p>
+              </div>
+              <div class="mb48 col-md-5 mt0">
+                <div class="img-div">
+                  <div class="img-border">
+                    <img class="img img-responsive" src="/web/image/4116/top%20managent%202.png" alt="Odoo - Sample 1 for three columns" data-original-title="" title="" style=""/>
+                  </div>
+                </div>
+                <p style="text-align: center;">
+                  <br/>
+                  <b>
+                    <font style="color: rgb(0, 0, 255);">
+                      <br/>
+                    </font>
+                  </b>
+                </p>
+                <p style="text-align: center;">
+                  <b>
+                    <font style="color: rgb(0, 0, 255);">Her Arsa Prabudi</font>
+                  </b>
+                </p>
+                <p style="text-align: center;">
+                  <font style="color: rgb(0, 0, 255);">Plt. Direktur Utama</font>
+                </p>
+                <p style="text-align: center;">
+                  <font style="color: rgb(0, 0, 255); font-size: 18px;">
+                    <br/>
+                  </font>
+                  <b>
+                    <font style="font-size: 18px;"/>
+                  </b>
+                </p>
+                <p>
+                  <font style="font-size: 12px;">Her Arsa Pambudi menjabat sebagai Komisaris PT Sinergi&amp;nbsp;&amp;nbsp; Informatika Semen Indonesia sejak tahun 2018.&amp;nbsp;</font>
+                </p>
+                <p>
+                  <font style="font-size: 12px;">Saat ini beliau menjabat sebagai GM of Innovation &amp;amp; System Development Department of Innovation &amp;amp; System Dev PT Semen Indonesia(Persero) Tbk. Sebelumnya, beliau menjabat&amp;nbsp;sebagai GM of ICT Services Departement of ICT Services.</font>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section style="background-color: black;">
+        <div class="container main-form">
+          <h1/>
+          <div class="row " style="margin-bottom: 5%; ">
+            <div class="col-md-8">
+              <div class="oe_structure">
+                <div>
+                  <p>
+                    <font style="font-size: 24px;" class="text-white">
+                      <b>Contact Us</b>
+                    </font>
+                  </p>
+                </div>
+              </div>
+              <div class="div-form">
+                <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form form-horizontal container-fluid mt32" enctype="multipart/form-data" data-editable-form="false">
+                  <div class="form-group form-field o_website_form_required_custom">
+                    <label class="col-md-3 col-sm-4 control-label" for="contact_name">
+                      <font style="" class="text-white">Your Name</font>
+                    </label>
+                    <div id="form-col" class="col-md-7 col-sm-8">
+                      <input type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required=""/>
+                    </div>
+                  </div>
+                  <div class="form-group form-field">
+                    <label class="col-md-3 col-sm-4 control-label" for="phone">
+                      <font style="" class="text-white">Phone Number</font>
+                    </label>
+                    <div id="form-col" class="col-md-7 col-sm-8">
+                      <input type="text" class="form-control o_website_form_input" name="phone" t-att-value="request.params.get('phone', '')"/>
+                    </div>
+                  </div>
+                  <div class="form-group form-field o_website_form_required_custom">
+                    <label class="col-md-3 col-sm-4 control-label" for="email_from">
+                      <font style="" class="text-white">Email</font>
+                    </label>
+                    <div id="form-col" class="col-md-7 col-sm-8">
+                      <input type="text" class="form-control o_website_form_input" name="email_from" required="" t-att-value="request.params.get('email_from', '')"/>
+                    </div>
+                  </div>
+                  <div class="form-group form-field o_website_form_required_custom">
+                    <label class="col-md-3 col-sm-4 control-label" for="partner_name">
+                      <font style="" class="text-white">Company</font>
+                   </label>
+                    <div id="form-col" class="col-md-7 col-sm-8">
+                      <input type="text" class="form-control o_website_form_input" name="partner_name" required="" t-att-value="request.params.get('partner_name', '')"/>
+                    </div>
+                  </div>
+                  <div class="form-group form-field o_website_form_required">
+                    <label class="col-md-3 col-sm-4 control-label" for="name">
+                      <font style="" class="text-white">Subject</font>
+                    </label>
+                    <div id="form-col" class="col-md-7 col-sm-8">
+                      <input type="text" class="form-control o_website_form_input" name="name" required="" t-att-value="request.params.get('name', '')"/>
+                    </div>
+                  </div>
+                  <div class="form-group form-field o_website_form_required_custom">
+                    <label class="col-md-3 col-sm-4 control-label" for="description">
+                      <font style="" class="text-white">Question</font>
+                    </label>
+                    <div id="form-col" class="col-md-7 col-sm-8">
+                      <textarea class="form-control o_website_form_input" name="description" required="">
+                        <t t-esc="request.params.get('description', '')"/>
+                      </textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-offset-3 col-sm-offset-4 col-sm-8 col-md-7" style="margin-left: 0px">
+                      <span id="btn-form" class="btn btn-primary btn-lg o_website_form_send">Send</span>
+                      <span id="o_website_form_result"/>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-4 mb32">
+              <t t-call="website.company_description"/>
+              <h2>
+                <a href="https://www.facebook.com/Official.SISI/">
+                  <i class="fa fa-facebook-square"/>
+                </a>
+                <a href="https://www.linkedin.com/company/pt-sinergi-informatika-semen-indonesia/">
+                  <i class="fa fa-linkedin"/>
+                </a>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="mycarousel1579504341682" class="carousel slide s_banner mb0 mt0" data-interval="5000" style="">
+        <ol class="carousel-indicators">
+          <li data-target="#mycarousel1579504341682" data-slide-to="0">
+            <br/>
+          </li>
+          <li data-target="#mycarousel1579504341682" data-slide-to="1" class="active">
+            <br/>
+          </li>
+          <li data-target="#mycarousel1579504341682" data-slide-to="2">
+            <br/>
+          </li>
+          <li data-target="#mycarousel1579504341682" data-slide-to="3">
+            <br/>
+          </li>
+          <li data-target="#mycarousel1579504341682" data-slide-to="4">
+            <br/>
+          </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item oe_img_bg oe_custom_bg active left" style="background-image: url(&quot;/web/image/2888/c.png&quot;); background-size: cover; background-position: 0% 0%;">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-md-offset-1 mb0 col-md-6 mt92" style="">
+                  <h2>
+                    <b>Leads</b>
+                    <br/>
+                  </h2>
+                  <h4 style="text-align: justify;">
+                    <span class="tlid-translation translation" lang="en">
+                      <span title="">Management of opportunities for projects that can be obtained and projects that have been successfully obtained or projects that have failed to be obtained.</span>
+                    </span>
+                  </h4>
+                </div>
+                <div class="well s_well clearfix">
+                  <p class="o_default_snippet_text"> Explain the benefits you offer. Don't write about products or services here, write about solutions. </p>
+                </div>
+                <div class="carousel-img hidden-sm hidden-xs mt48 col-md-5">
+                  <img class="img-responsive" src="/web/image/2296/LEADSSSSSSSSSSSSSSSSSSSSSSSSSSSS.png" alt="Slider Odoo Image" data-original-title="" title="" style="width: 50%; transform: translateX(33.2%) translateY(33.2%) scaleX(1.38) scaleY(1.49);"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item oe_img_bg oe_custom_bg next left" style="background-image: url(&quot;/web/image/2897/h.png&quot;);">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-md-4 col-md-offset-1 mb0 mt92">
+                  <h2>
+                    <b>Quotation</b>
+                    <br/>
+                  </h2>
+                  <h4 style="text-align: justify;">
+                    <span class="tlid-translation translation" lang="en">
+                      <span title="">Managing offer letters given to customers or prospective customers after the offer.</span>
+                    </span>
+                  </h4>
+                </div>
+                <div class="carousel-img hidden-sm hidden-xs mb64 mt64 col-md-5" style=""> &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; <img class="img-responsive" src="/web/image/2297/quo.png" alt="Slider Odoo Image" data-original-title="" title="" style="width: 50%; transform: translateX(46.8%) translateY(-6.5%);"/></div>
+              </div>
+            </div>
+          </div>
+          <div class="item oe_img_bg oe_custom_bg" style="background-position: 10.94% 29.1%; background-image: url(&quot;/web/image/2895/0.png&quot;);">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-md-offset-1 mb0 col-md-5 mt64">
+                  <h2>
+                    <b>Sales Order</b>
+                    <br/>
+                  </h2>
+                  <h4 style="text-align: justify;">
+                    <span class="tlid-translation translation" lang="en">
+                      <span title="">Management of sales contracts that have been agreed by both parties based on the quotation that has been sent.</span>
+                      <span title="">In this process, the status of a prospective customer will change to a customer.</span>
+                    </span>
+                  </h4>
+                </div>
+                <div class="carousel-img hidden-sm hidden-xs mt64 col-md-5">
+                  <img class="img-responsive" src="/web/image/2329/ques.png" alt="Slider Odoo Image" data-original-title="" title="" style="width: 50%; transform: translateX(28.9%) translateY(10.1%) scaleX(1.18) scaleY(1.08);"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item oe_img_bg oe_custom_bg" style="background-image: url(&quot;/web/image/2874/ww.png&quot;);">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-md-offset-1 mt128 mb0 col-md-5" style="">
+                  <h2>
+                    <b>To Invoice</b>
+                    <br/>
+                  </h2>
+                  <h4 style="text-align: justify;">
+                    <span class="tlid-translation translation" lang="en">
+                      <span title="">Managing planning of billing requests to customers for ongoing projects.</span>
+                    </span>
+                  </h4>
+                </div>
+                <div class="carousel-img col-md-offset-1 hidden-sm hidden-xs col-md-4 mt64">
+                  <img class="img-responsive" src="/web/image/2317/voice.png" alt="Slider Odoo Image" data-original-title="" title="" style="width: 50%; transform: translateX(-5.6%) translateY(26.6%) scaleX(1.39) scaleY(1.39);"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item oe_img_bg oe_custom_bg" style="background-image: url(&quot;/web/image/2890/dd.png&quot;); background-position: 50% 50%;">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-md-offset-1 mb0 col-md-5 mt92" style="">
+                  <h2>
+                    <b>Invoice</b>
+                    <br/>
+                  </h2>
+                  <h4 style="text-align: justify;">
+                    <span class="tlid-translation translation" lang="en">
+                      <span title="">Management of billing requests has been carried out billing at the planned billing request.</span>
+                    </span>
+                    <br/>
+                    <span class="tlid-translation translation" lang="en">
+                      <span title=""/>
+                    </span>
+                  </h4>
+                </div>
+                <div class="carousel-img hidden-sm hidden-xs mt48 col-md-5">
+                  <img class="img-responsive" src="/web/image/2298/kisspng-computer-icons-invoice-receipt-commerce-portfolio-5ac9a4a2354d51.3098672615231643222183.png" alt="Slider Odoo Image" data-original-title="" title="" style="width: 50%; transform: translateX(49.4%) translateY(15.7%) scaleX(1.05) scaleY(1.09);"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-control left" data-target="#mycarousel1579504341682" data-slide="prev" style="width: 10%" data-cke-saved-href="#myCarousel1579504341682">
+          <i class="fa fa-chevron-left text-delta" style="" data-original-title="" title=""/>
+        </div>
+        <div class="carousel-control right" data-target="#mycarousel1579504341682" data-slide="next" style="width: 10%" data-cke-saved-href="#myCarousel1579504341682">
+          <i class="fa fa-chevron-right text-delta" style="" data-original-title="" title=""/>
+        </div>
+      </div>
+      <section id="sub_title_1" class="s_title" style="&#10;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">
+                <b>Additional Features</b>
+              </h1>
+              <h3 class="text-center text-muted">
+                <font style="color: rgb(156, 156, 148); font-size: 18px;">
+                  <i/>
+                </font>
+                <font style="color: rgb(99, 99, 99); font-size: 18px;">
+                  <i>Customize your website according to your business needs</i>
+                </font>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="add_features" class="s_features oe_img_bg oe_custom_bg" style="background-position: 74.89% 57.46%; background-image: url(&quot;/web/image/3121/grd.png&quot;); margin-left: 7%; margin-right: 7%;">
+        <div class="container" style="/*! width: 92%; */">
+          <div class="row mt16 mb16" style="/*! width: 153%; */">
+            <div class="text-center mb0 col-md-3 mt8">
+              <span class="fa fa-5x fa-magic text-white" data-original-title="" title="" style=""/>
+              <div>
+                <h3 class="mt8 mb0">
+                  <span style="font-weight: normal;">
+                    <font color="#eeeeee"> Customize</font>
+                  </span>
+                </h3>
+                <h3 class="mt8 mb0">
+                  <font color="#eeeeee">
+                    <br/>
+                  </font>
+                </h3>
+                <p class="text-muted">
+                  <font style="color: rgb(239, 239, 239); font-size: 18px;" color="#eeeeee">Custom window to fulfill sales needs.</font>
+                </p>
+              </div>
+            </div>
+            <div class="text-center col-md-3 mt8">
+              <span class="fa fa-5x fa-comments-o text-white" data-original-title="" title="" style=""/>
+              <div>
+                <h3 class="mt8 mb0">
+                  <font class="text-white" style=""> Help desk</font>
+                </h3>
+                <h3 class="mt8 mb0">
+                  <font class="text-white" style="">
+                    <br/>
+                  </font>
+                </h3>
+                <p class="text-muted">
+                  <font style="color: rgb(239, 239, 239); font-size: 18px;" color="#ffffff">Center of point issue founded will be processed and reported to the company</font>
+                </p>
+              </div>
+            </div>
+            <div class="text-center mb32 col-md-1 mt8" style="/*! height: 350px; */">
+              <span class="fa fa-5x fa-smile-o text-white" data-original-title="" title="" style=""/>
+              <div>
+                <h3 class="mb0 mt8">
+                  <font class="text-white" style=""> Survey</font>
+                </h3>
+                <h3 class="mb0 mt8">
+                  <font class="text-white" style=""/>
+                </h3>
+                <h3 class="mb0 mt8">
+                  <font class="text-white" style=""/>
+                </h3>
+                <h3 class="mb0 mt8">
+                  <font class="text-white" style="">
+                    <br/>
+                  </font>
+                </h3>
+                <p class="text-muted" style="text-align: center;">
+                  <font style="color: rgb(239, 239, 239); font-size: 18px;" color="#ffffff">Customer satisfaction scoring phase for product or company service.</font>
+                </p>
+              </div>
+            </div>
+            <div class="text-center mb0 col-md-3 mt8">
+              <span class="fa fa-5x fa-bell-o text-white" data-original-title="" title="" style=""/>
+              <div>
+                <h3 class="mt8 mb0" style="text-align: center;">
+                  <font class="text-gray-lighter" style=""> Calender Reminder</font>
+                </h3>
+                <h3 class="mt8 mb0">
+                  <font class="text-gray-lighter" style="">
+                    <br/>
+                  </font>
+                </h3>
+                <p class="text-muted">
+                  <font style="color: rgb(239, 239, 239); font-size: 18px;" color="#eeeeee">Reminder for the team could be share</font>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="jumbotron s_button bg-black-75" style="&#10;    margin-top: 1%;&#10;    background-color: #004389;&#10;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <p class="mb0">
+                <strong>
+                  <font style="" class="text-delta">&amp;nbsp;Grow your businesses with Forca CRM.</font>
+                </strong>
+              </p>
+              <p class="mb0 o_default_snippet_text">
+                <font style="" class="text-delta">&amp;nbsp;Join us and make your company a better place.&amp;nbsp;</font>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <a href="https://crm.sisi.id/" class="pull-right mt8 btn btn-info-2 btn-lg" style="&#10;    background-color: #f2c807;&#10;">
+                <font style="color: black !important;" class="text-delta">&amp;nbsp;Contact Us Now&amp;nbsp;</font>
+                <i class="fa fa-chevron-right text-delta" style="color: black !important;"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>

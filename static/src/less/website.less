@@ -1,0 +1,887 @@
+///
+/// This file regroups basic style rules for web_editor enable page edition and backend utils.
+///
+
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: black;
+    //font-family: Arial, Roboto, "Times New Roman", Times !important;
+    font-family: Arial !important;
+    line-height: 2;
+}
+
+body .text-delta {
+    color: white !important;
+}
+
+footer {
+    display: none !important;
+}
+
+.o_portal_my_details {
+    color: black;
+}
+.main_title {
+    margin: 0px !important;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 1.5;
+}
+
+
+#btn-signIn:hover{
+    background-color: #3b62fb !important;
+}
+
+#btn-signUp:hover {
+    background-color: #e6e0e0!important;
+    border: none !important;
+    color: #0034ff !important;
+}
+.btn-info-2 {
+    background-color: #0187fd;
+}
+
+.btn-info-2:hover {
+    background-color: #0163fd !important;
+    border-color: #0163fd  ; 
+}
+#btn-register{
+    border-radius: 25px;border: none;
+    font-size: 20px;width: 166px;
+    background-color: #eefaff;color: #2280b2;
+    float: right;text-align: center;
+}
+#btn-register:hover{
+    background-color: #c9edfc!important;
+    color: #0034ff !important;
+}
+.btn-primary {
+    background-color: #0187fd;
+}
+
+.btn-primary:hover {
+    background-color: #0163fd !important;
+    border-color: #0163fd !important; 
+    
+}
+
+.control-label::after {
+    color: red;
+}
+
+
+.navbar-default {
+    background-color: #004389;
+    border: none;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar-nav > li > a, .navbar-nav > li > a:hover, .navbar-nav > li > .active > a:hover {
+    color: #ffffff !important;
+}
+a.dropdown-toggle:hover{
+   background-color: #013162 !important;     
+}
+.navbar-nav > li > a:hover, li.dropdown.open > a {
+    background-color: #013162 !important;
+}
+.navbar-nav > .active > a {
+    background: none !important;
+}
+
+
+.navbar-signIn{
+    background-color: #35ce35 !important;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 8px 30px 8px 30px !important;
+    border-radius: 25px;
+}
+ul#top_menu {
+    margin-right: 20%;
+    }
+div.navbar-static-top{
+    background-image: linear-gradient(to right, #045DE9 , #23C0EB);
+    }
+ul#top_menu > li > a {
+    background-color: transparent;
+    }
+a.navbar-brand > span > img.img-responsive {
+    transform: scale(0.8);
+}
+.main-title{
+    border: 5px solid; padding: 25px;
+}
+a#btn-signIn{
+    background-color:#0034ff !important; font-weight: bold;
+    border: none; width: 125px;  margin-top: 20px !important;     
+    padding: 10px 16px;border-radius: 25px;font-size: 14px;
+}
+a#btn-signIn> font.text-delta {
+    color: inherit !important;
+}
+a#btn-signUp {
+    background-color:#ffffff !important; font-weight: bold; 
+    border: none; width: 125px; margin-top: 20px !important;     
+    padding: 10px 16px;border-radius: 25px;font-size: 14px;
+}
+a#btn-signUp> font.text-delta {
+    color: inherit !important;
+}
+#sign-in{
+    margin-right: 35%;
+}
+#sign-up{
+    margin-right: 53%;
+}
+
+ul#top_menu > li.active > a > span, ul#top_menu > li > a > b > span {
+    color: white; font-weight: bold;
+}
+ul#top_menu > li > a > span:hover {
+    color: white;
+}
+ul#top_menu > li > a > span {
+    color: #ffffffba;
+}
+.navbar.navbar-static-top ul.nav > li.divider{
+    height: 0px !important
+};
+
+
+#shape::after {
+    content: "";
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+    height: auto;
+    border-right: 42px solid #3085E6;
+    border-top: 42px solid transparent;
+    border-bottom: 36px solid transparent;
+}
+#shape {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #3085E6;
+    padding: 10px;
+    line-height: 4.0;
+}
+.num-lis{
+    line-height: 1.5;
+    font-size: 36px;
+    float: right;
+}
+
+
+.bg-delta {
+    background-color: #E5EFF6 !important;
+}
+.text-muted{
+    color: black !important;
+}
+.fadeIn{
+ animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+   from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fadeInUp{
+ animation: fadeInUp ease 5s;
+  -webkit-animation: fadeInUp ease 5s;
+  -moz-animation: fadeInUp ease 5s;
+  -o-animation: fadeInUp ease 5s;
+  -ms-animation: fadeInUp ease 5s;
+}
+
+@keyframes fadeInUp{
+  from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInUp {
+  from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+   from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInUp {
+  from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeInUp {
+  from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+.row-content{
+    margin-left: 4%;
+}
+.main-content{
+    width: 25%;
+    margin-left: 4%;
+}
+
+.col-md.mt32.mb0{
+    transition: transform .2s; 
+}
+
+
+div.carousel div.carousel-content {
+    background-color: rgba(0, 0, 0, 0.4196078431372549);
+    border-radius: 2%;
+    padding: 3% !important;
+    width: 50%;
+    margin: 3%;
+   
+    
+}
+
+//mobile
+ @media (max-width: @screen-xs-max ) {
+   .content{
+        margin-right: 3% !important;
+   }
+   .carousel-control {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+   }
+   div.carousel div.carousel-content{
+        width: 100%;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        margin-top: 10% !important;
+        text-align: center;
+      
+   }
+    .row-content{
+    margin: 0% auto;
+    }
+   .main-content{
+    width: 100%;
+    margin: 3% auto;
+    }
+   #div-logo{
+        width: 25% !important; 
+        transform: translateX(147%) translateY(5.8%) scaleX(1.48) scaleY(1.49) !important;
+   }
+   #add_features{
+        height: 1100px;
+        
+   }
+   #add_features > div.container > div.row > div {
+        width: 100% !important;
+        min-height: 200px !important;
+   }
+}
+
+ @media (max-width: 972px ) {
+   .content{
+        margin-right: 1%;
+   }
+   .carousel-control {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+   }
+   div.carousel div.carousel-content{
+        width: 100%;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        margin-top: 10% !important;
+        text-align: center;
+      
+   }
+    .row-content{
+    margin: 0% auto;
+    }
+   .main-content{
+    width: 100%;
+    margin: 3% auto;
+    }
+   #div-logo{
+        width: 25% !important; 
+        transform: translateX(147%) translateY(5.8%) scaleX(1.48) scaleY(1.49) !important;
+   }
+   #add_features{
+        height: 1100px;
+        
+   }
+   #add_features > div.container > div.row > div {
+        width: 100% !important;
+        min-height: 200px !important;
+   }
+}
+
+
+
+#sub_title_1 {
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#mycarousel1579504341682 {
+    background-color: rgba(30, 132, 179, 0.8);
+    color: white;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 450px;
+}
+
+#add_features > div.container > div.row > div {
+    background-color: rgba(0, 0, 0, 0.41960784);
+    margin-left: 1%;
+    padding: 2%;
+    border-radius: 3%;
+    height: auto;
+    width: 24%;
+    min-height: 355px;
+}
+
+#add_features > div.container > div.row {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 0px;
+}
+
+#add_features > div.container {
+    margin: 0px;
+    width: 100%;
+}
+
+#add_features {
+    padding: 1%;
+}
+
+#company_corp {
+    display: none;
+}
+
+#company_address > address {
+    line-height: 2;
+}
+
+#button_blue {
+    background-color: #347ab7;
+}
+
+#button_blue:hover {
+    background-color: #27659a;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background-image: none !important;
+}
+
+.carousel-indicators > li {
+    box-shadow: 0 0 0 1px white !important;
+}
+
+.tlid-translation {
+    line-height: 2;
+}
+
+.col-lg-offset-1 {
+    text-align: justify;
+}
+
+.col-md-12 > hr {
+    margin-top: 6%;
+    margin-bottom: 0%;
+}
+
+.css_non_editable_mode_hidden {
+    display: none !important;
+}
+.editor_enable .css_editable_mode_hidden {
+    display: none !important;
+}
+.note-toolbar {
+    margin-left: 0 !important;
+}
+.note-popover .popover > .arrow {
+    display: none;
+}
+
+.form-control {
+    color: rgba(0, 0, 0, 0.8392156862745098) !important;
+}
+
+.mb0.col-md-7.mt0 > p {
+    line-height: 2 !important;
+}
+
+.s_features > .container > .row > .col-md-4{
+    width: 23%;
+    margin-left: 3%;
+}
+.feature {
+    line-height: 1.5 !important;
+}
+.img-features{
+  width: 30%;
+  transform: translateX(115.6%) translateY(-3.6%);
+}
+
+.s_features>.container{
+    width: 100%;
+}
+.first-col{
+    margin-left: 15% !important;
+}
+
+.row.top-div{
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 100%;
+}
+.top-div>.mb48.col-md-5{
+  padding: 5%;
+  line-height: 1.5;  
+}
+.top-div>.mb48.col-md-5>.img-div{
+    padding-right: 20%;
+    padding-left: 5%;
+}
+.top-div>.mb48.col-md-5>.img-div>.img-border{
+    border: 10px solid #3592D1;
+}
+.img-border>.img-responsive{
+    transform: translateY(10%) translateX(10%) scaleX(1.1) scaleY(1.1);
+    box-shadow: 2px 2px 6px black;
+}
+.mb48.col-md-5>p{
+  margin: 0px ;  
+}
+
+//about us
+
+#company_address{
+    color: white;
+    margin-top: 12%;
+}
+.div-form {
+    background-color: grey;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+    width: 80%;
+}
+#form-col{
+    width: 100%;
+}
+.col-md-3.col-sm-4.control-label {
+    text-align: left;
+    width: 100%;
+}
+.form-control.o_website_form_input{
+    color: #a49c9c;
+    background-color: grey !important;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+#btn-form{
+    float: left;
+    width: 30%;
+    border-radius: 25px;
+    background-color:#0070ff;
+}
+.col-md-offset-3.col-sm-offset-4.col-sm-8.col-md-7 {
+    width: 100%;
+}
+//login page
+//////////////////////
+.head img {
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-o-border-radius:50%;
+	-moz-border-radius:50%;
+	border:6px solid rgba(221, 218, 215, 0.23);
+}
+////////////////////////////
+div.body_login > div#background-wrapper { background-image: linear-gradient(to right, blue,teal) !important;}
+div.body_login>.o_database_list {width: 60%;padding-left: 30%;padding-top: 5%;padding-bottom: 5%;}
+div.body_login>.o_database_list>.text-center>.company_logo{padding-bottom: 10%;}
+#login{background-color:#e3e3e3 !important;width: 100%;height: 45px;border-radius: 10px;}
+#password{background-color:#e3e3e3 !important;width: 100%;height: 45px;border-radius: 10px;}
+div.body_login>.o_database_list>.oe_login_form>.oe_login_buttons>.btn-primary{width: 100%;border-radius: 25px;height: 45px; background-image: linear-gradient(to right,
+blue, teal)}
+
+
+
+/* ----- GENERIC LAYOUTING HELPERS ---- */
+/* table */
+#wrapwrap, .o_editable {
+    // Only style editor-made tables (shop/portal/... tables are not supposed to
+    // use table-bordered...)
+    table.table.table-bordered {
+        table-layout: fixed;
+        td {
+            min-width: 20px;
+        }
+    }
+    @media (max-width: @screen-xs-max) {
+        .table-responsive > table.table {
+            table-layout: auto;
+        }
+    }
+}
+.s_text_block{
+    font-family: inherit;
+    font-weight:500;
+    line-height: 1.1;
+    color : inherit;
+}
+
+// Medias
+img.shadow {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+img.padding-small, .img.padding-small, span.fa.padding-small, iframe.padding-small {
+    padding: 4px;
+}
+img.padding-medium, .img.padding-medium, span.fa.padding-medium, iframe.padding-medium {
+    padding: 8px;
+}
+img.padding-large, .img.padding-large, span.fa.padding-large, iframe.padding-large {
+    padding: 16px;
+}
+img.padding-xl, .img.padding-xl, span.fa.padding-xl, iframe.padding-xl {
+    padding: 32px;
+}
+
+.fa-6x {
+    font-size: 6em;
+}
+.fa-7x {
+    font-size: 7em;
+}
+.fa-8x {
+    font-size: 8em;
+}
+.fa-9x {
+    font-size: 9em;
+}
+.fa-10x {
+    font-size: 10em;
+}
+.fa.center-block {
+    text-align: center;
+}
+
+
+div.media_iframe_video {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        .o-position-absolute(@top: 0);
+        margin: 0 auto;
+        margin-left: -50%;
+    }
+    &.padding-small iframe {
+        padding: 4px;
+    }
+    &.padding-medium iframe {
+        padding: 8px;
+    }
+    &.padding-large iframe {
+        padding: 16px;
+    }
+    &.padding-xl iframe {
+        padding: 32px;
+    }
+
+    .media_iframe_video_size {
+        padding-bottom: 66.5%;
+        position: relative;
+        width: 100%;
+        height: 0;
+    }
+
+    .css_editable_mode_display {
+        .o-position-absolute();
+        width: 100%;
+        height: 100%;
+        display: none;
+        z-index: 2;
+    }
+}
+
+html[data-browser^="msie"] div.media_iframe_video iframe {
+    margin-left: 0;
+}
+
+@media (max-width: @screen-xs-max) {
+    img:not(.cke_iframe), .media_iframe_video, span.fa, i.fa {
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
+        transform: none !important;
+    }
+}
+
+
+
+// Fields
+address {
+    .fa.fa-mobile-phone {
+        margin: 0 3px 0 2px;
+    }
+    .fa.fa-file-text-o {
+        margin-right: 1px;
+    }
+}
+
+span[data-oe-type="monetary"] {
+    white-space: nowrap;
+}
+
+// Menus
+// TODO should not be here but used by web_studio so must stay here for now
+ul.oe_menu_editor {
+    .oe_menu_placeholder {
+        outline: 1px dashed #4183C4;
+    }
+    ul {
+        list-style: none;
+    }
+    li div {
+        cursor: move;
+    }
+}
+
+// Generate all margins for all sizes
+.o-margins-all(@factor: 1) {
+    // Unfortunately, the margins sizes are not
+    // mathematically related by a single function
+    .o-margins(128, @factor);
+    .o-margins(96, @factor);
+    .o-margins(92, @factor);
+    .o-margins(64, @factor);
+    .o-margins(48, @factor);
+    .o-margins(32, @factor);
+    .o-margins(24, @factor);
+    .o-margins(16, @factor);
+    .o-margins(8, @factor);
+    .o-margins(4, @factor);
+    .o-margins(0, @factor);
+}
+
+// Generate all margins for one size, scalled by a
+// given factor (0 <= factor <= 1)
+.o-margins(@name, @factor: 1) {
+    .o-margins-define(@name, @factor * @name);
+}
+
+// Generate all margins for one size, given
+// the name of the margin and intended size
+.o-margins-define(@name, @size: @name) {
+    .mt@{name} {margin-top: ~"@{size}px"!important;}
+    .mb@{name} {margin-bottom: ~"@{size}px"!important;}
+    .ml@{name} {margin-left: ~"@{size}px"!important;}
+    .mr@{name} {margin-right: ~"@{size}px"!important;}
+}
+
+// Generate all margins
+.o-margins-all();
+
+// Possibility to change the margins ratio for small screen sizes, e.g.:
+// @media (max-width: 768px) {
+//     .o-margins-all(0.75);
+// }
+// Possibility to only redefine single margins for small screen sizes, e.g.:
+// @media (max-width: 768px) {
+//     .o-margins(64, 0.50);
+//     .o-margins(48, 0.50);
+// }
+// Possibility to directly redefine the size of single margins instead of refering to a factor for small screen sizes, e.g.:
+// @media (max-width: 768px) {
+//     .o-margins-define(128, 48);
+//     .o-margins-define(96, 48);
+//     .o-margins-define(64, 48);
+// }
+
+a.o_underline {
+    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Colors
+@gray-white: #fff;
+
+@color-alpha: #F96167;
+@color-beta: #FCE77D;
+@color-gamma: #2F3C7E;
+@color-delta: #FBEAEB;
+@color-epsilon: #1D1B1B;
+
+// Greyscale transparent colours
+@color-black-25: fade(black, 25%);
+@color-black-50: fade(black, 50%);
+@color-black-75: fade(black, 75%);
+@color-white-25: fade(white, 25%);
+@color-white-50: fade(white, 50%);
+@color-white-75: fade(white, 75%);
+
+.o-create-color-classes(@name, @color, @complementary: contrast(@color, @text-color, #FFF, 60%), @content-color: @color) {
+    .bg-@{name} {
+        background-color: @color;
+        color: @complementary;
+        .text-muted {
+            color: fade(@complementary, 40%);
+        }
+    }
+    body .text-@{name} { // body to make the rules more important that bg-* ones
+        color: @content-color;
+    }
+}
+.o-create-color-btn-classes(@name, @color, @complementary: contrast(@color, @text-color, #FFF, 60%), @border-color: darken(@color, 5%)) {
+    .btn-@{name} {
+        .button-variant(@complementary, @color, @border-color);
+    }
+}
+
+// Create classes for theme colors...
+.o-create-color-classes(alpha, @color-alpha);
+.o-create-color-classes(beta, @color-beta);
+.o-create-color-classes(gamma, @color-gamma);
+.o-create-color-classes(delta, @color-delta);
+.o-create-color-classes(epsilon, @color-epsilon);
+
+// ... and button classes
+.o-create-color-btn-classes(alpha, @color-alpha);
+.o-create-color-btn-classes(beta, @color-beta);
+.o-create-color-btn-classes(gamma, @color-gamma);
+.o-create-color-btn-classes(delta, @color-delta);
+.o-create-color-btn-classes(epsilon, @color-epsilon);
+
+// Create classes for UI colors
+.o-create-color-classes(primary, @brand-primary);
+.o-create-color-classes(success, @state-success-bg, @content-color: @state-success-text);
+.o-create-color-classes(info, @state-info-bg, @content-color: @state-info-text);
+.o-create-color-classes(warning, @state-warning-bg, @content-color: @state-warning-text);
+.o-create-color-classes(danger, @state-danger-bg, @content-color: @state-danger-text);
+
+// Create classes for greyscale colors
+.o-create-color-classes(~'black', @gray-base);
+.o-create-color-classes(~'gray-darker', @gray-darker);
+.o-create-color-classes(~'gray-dark', @gray-dark);
+.o-create-color-classes(~'gray', @gray);
+.o-create-color-classes(~'gray-light', @gray-light);
+.o-create-color-classes(~'gray-lighter', @gray-lighter);
+.o-create-color-classes(~'white', @gray-white);
+
+// Create classes for greyscale transparent colours
+.o-create-color-classes(~'black-25', @color-black-25);
+.o-create-color-classes(~'black-50', @color-black-50);
+.o-create-color-classes(~'black-75', @color-black-75);
+.o-create-color-classes(~'white-25', @color-white-25);
+.o-create-color-classes(~'white-50', @color-white-50);
+.o-create-color-classes(~'white-75', @color-white-75);

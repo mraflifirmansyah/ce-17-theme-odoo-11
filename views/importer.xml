@@ -17,6 +17,7 @@
         <template id="assets_frontend" name="CE Website Assets" inherit_id="web.assets_frontend">
             <xpath expr="." position="inside">
                 <link rel="stylesheet" href="/ce-17-theme-odoo-11/static/src/css/website.css"/>
+                <script src="/ce-17-theme-odoo-11/static/src/js/website.js"/>
             </xpath>
         </template>
 </odoo>
